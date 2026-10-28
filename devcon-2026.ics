@@ -679,9 +679,26 @@ UID:1346589@sessionize-dcbso6w5
 DTSTAMP:20261103T151500Z
 DTSTART;TZID=America/New_York:20261103T151500
 DTEND;TZID=America/New_York:20261103T154500
-SUMMARY:Coming soon
+SUMMARY:What Breaks First On The Way To Machine Speed: A Macro and Micro Vi
+ ew
 LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Dan Lorenc\n\nLeadership Track
+DESCRIPTION:Speakers: Dan Lorenc\n\nLeadership Track\n\nSoftware has three 
+ speeds: how fast problems get found\, how fast they get fixed\, and how of
+ ten you can ship. Nobody owns all three. Finders\, maintainers\, vendors\,
+  and operators are each sewn into the same chain\, upstream of some and do
+ wnstream of others\, and they’re reaching machine speed at different tim
+ es. Finding got there first. Fixing is close behind. Shipping is set by yo
+ ur tests and your change control\, and it isn’t moving. Whoever falls be
+ hind the stage in front of them becomes the bottleneck\, and everything pi
+ les up on them.\n\nThis talk looks at where that pile lands\, at two scale
+ s\, from both the development and security sides. At the macro scale\, sec
+ urity breaks in the slow middle: upstream patching at a crawl has quietly 
+ protected everyone downstream\, and that dam is going. Development breaks 
+ the other way: migration costs have collapsed\, and the teams that can’t
+  absorb constant small breaking changes stall while their neighbors sprint
+ . At the micro scale\, security breaks at the design of a single component
+ \, and development breaks at a single migration\, where compatibility now 
+ means whether an agent can make the change cheaply.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
