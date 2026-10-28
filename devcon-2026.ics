@@ -1,0 +1,1640 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jonathanmorley//devcon-2026-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI DevCon NYC 2026
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d0b5deed-5f3f-4650-b62d-1fbe474084bb@sessionize-dcbso6w5
+DTSTAMP:20261102T100000Z
+DTSTART;TZID=America/New_York:20261102T100000
+DTEND;TZID=America/New_York:20261102T110000
+SUMMARY:Registration and Breakfast
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1350546@sessionize-dcbso6w5
+DTSTAMP:20261102T111000Z
+DTSTART;TZID=America/New_York:20261102T111000
+DTEND;TZID=America/New_York:20261102T124000
+SUMMARY:Build your own software factory with context
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Joe Holdcroft\, Hamza Oza\, James Moss\n\nWorkshop ·
+  Context & Skills Engineering\n\nMost teams using coding agents hit the sa
+ me wall. The agent writes code quickly\, but someone still has to review i
+ t\, check it for security problems and keep an eye on what it costs. A sof
+ tware factory hands those jobs to agents too\, and what makes it work is c
+ ontext: the instructions\, rules and skills that tell each agent how your 
+ team does things.\n\nIn this hands-on workshop you'll build one. You'll us
+ e the Tessl agent to work through it step by step. Along the way you'll se
+ t up automated code review\, add security checks\, plug in reusable skills
+  and get a handle on token spend. Where a piece isn't built in yet\, we'll
+  show you how to approximate it with a simple agent loop.\n\nYou'll leave 
+ with a working repo you can keep building on\, and an approach that carrie
+ s over to whichever agent your team uses.\n\nWho it's for\n- Engineers and
+  tech leads already using a coding agent such as Claude Code\, Cursor\, Co
+ dex or Gemini. You should be comfortable with git and the terminal. No Tes
+ sl experience needed.\n\nWhat to bring\n- A laptop with git\, Node.js and 
+ your coding agent installed\n- A GitHub account\n- A repo you'd like to tr
+ y this on (optional\; we provide a starter)\n\nWe'll give every attendee e
+ xtra credits on the day\, so nobody runs out mid-session.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:16f268be-4f18-4a8d-8727-a211e780687b@sessionize-dcbso6w5
+DTSTAMP:20261102T124000Z
+DTSTART;TZID=America/New_York:20261102T124000
+DTEND;TZID=America/New_York:20261102T134000
+SUMMARY:Lunch Break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1350828@sessionize-dcbso6w5
+DTSTAMP:20261102T134000Z
+DTSTART;TZID=America/New_York:20261102T134000
+DTEND;TZID=America/New_York:20261102T151000
+SUMMARY:AI in Legacy Code: Small Steps\, Deterministic Tools\, Reusable Con
+ text
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Llewellyn Falco\n\nWorkshop · Real-World Playbooks\n
+ \nLevel: Beginner\n\nAI works well on greenfield code and falls apart on t
+ he code most of us actually have. In this hands-on mob session\, we take a
+  real legacy codebase and make it safe for AI\, live\, in small steps and 
+ fast feedback loops.\n\nTogether we write the handful of CLIs every projec
+ t needs: a fast test script\, a coverage script\, and format and lint tool
+ s. We wire in Habit Hooks\, which turns linter findings into coaching an a
+ gent can act on\, and use it to take on smells like duplication and long m
+ ethods. We use deliberately fast\, low-thinking models\, because tiny step
+ s and quick verification beat clever prompts.\n\nThen we extract knowledge
+  into documents: product docs\, process docs\, and agent rules. We clear c
+ ontext repeatedly and reload only what the agent needs from those docs\, s
+ o the context is something we build and keep rather than something we re-e
+ xplain every session.\n\n**You will leave able to:**\n- Build the basic CL
+ Is a legacy project needs before an agent touches it\n- Wire in hooks that
+  turn deterministic checks into guidance for the agent\n- Extract product 
+ and process knowledge into docs and rules the agent can reload after every
+  context clear\n
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:8ddbdf27-9fe3-42b0-95c5-c64c56552304@sessionize-dcbso6w5
+DTSTAMP:20261102T151000Z
+DTSTART;TZID=America/New_York:20261102T151000
+DTEND;TZID=America/New_York:20261102T154000
+SUMMARY:Coffee break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1323029@sessionize-dcbso6w5
+DTSTAMP:20261102T154000Z
+DTSTART;TZID=America/New_York:20261102T154000
+DTEND;TZID=America/New_York:20261102T171000
+SUMMARY:Building Custom Agents with the GitHub Copilot SDK
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Bruno Borges\, Jay Gordon\n\nWorkshop · Real-World P
+ laybooks\n\nLevel: Intermediate\n\nIn this slide-free\, code and agent hea
+ vy walkthrough\, we will build an agentic app with the GitHub Copilot SDK.
+ \n\nWe will begin by understanding with the Copilot Agent Runtime harness 
+ and then progressively build a museum exhibit curator agent. Attendees wil
+ l create and manage sessions\, stream events\, expose application-owned da
+ ta through a custom tool\, connect an MCP server\, and produce a structure
+ d\, evidence-based report.\n\nGitHub Copilot SDKs include Java\, Node.js\,
+  Python\, .NET\, Rust\, and Go support. Although each uses its language co
+ nventions and type systems\, they all implement the same concepts.\n\nAtte
+ ndees will see with a working application\, a practical understanding of t
+ he agent and tool-execution loop\, and reusable patterns for building secu
+ re\, testable Copilot-powered apps.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1364865@sessionize-dcbso6w5
+DTSTAMP:20261102T111000Z
+DTSTART;TZID=America/New_York:20261102T111000
+DTEND;TZID=America/New_York:20261102T124000
+SUMMARY:Managing AI Agents in Production
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Alexis Roberson\, Diane Phan\, Drew Gorton\n\nWorksho
+ p · Software Factories & Dark Factories\n\nLevel: Intermediate\n\nA hands
+ -on workshop for teams building software with AI agents. Attendees create 
+ and deploy an agent\, then use LaunchDarkly AgentControl to manage prompts
+ \, models\, and tools in production without redeploying. Along the way\, t
+ hey’ll explore how to shape and evaluate agent behavior\, including in c
+ oding-agent workflows\, and safely roll out changes as the agent evolves q
+ uickly and with full assurance.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1335649@sessionize-dcbso6w5
+DTSTAMP:20261102T134000Z
+DTSTART;TZID=America/New_York:20261102T134000
+DTEND;TZID=America/New_York:20261102T151000
+SUMMARY:The Only Variable: Change Nothing but the Charter\, and Measure Wha
+ t Moved
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ian Johnson\n\nWorkshop · Context & Skills Engineeri
+ ng\n\nLevel: Intermediate\n\nEveryone tells you to write a CLAUDE.md. Nobo
+ dy shows you what it buys\, because nobody measures it. Here you measure i
+ t\, on your laptop\, three times.\n\nYou get a repository you did not writ
+ e\, three eras deep\, where the correct code is outnumbered ten to one. Yo
+ u give your agent one ticket with no charter and watch it copy the worst t
+ hing in the codebase. Then you add four guardrails one at a time\, probe e
+ ach on its own\, and re-run the same ticket after each.\n\nThe deliverable
+  is a matrix: eight checks a machine can settle\, and one it cannot\, whic
+ h stays a question mark until a reviewer reads the diff. The hole in the s
+ corecard is the whole point.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1363200@sessionize-dcbso6w5
+DTSTAMP:20261102T154000Z
+DTSTART;TZID=America/New_York:20261102T154000
+DTEND;TZID=America/New_York:20261102T171000
+SUMMARY:Context\, subagents\, MCP and memory: building agents that last
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1334993@sessionize-dcbso6w5
+DTSTAMP:20261102T134000Z
+DTSTART;TZID=America/New_York:20261102T134000
+DTEND;TZID=America/New_York:20261102T151000
+SUMMARY:Stop Context Drift: Building Software with Deterministic Agents
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Tsvetan Tsvetanov\n\nWorkshop · Context & Skills Eng
+ ineering\n\nLevel: Intermediate\n\nAI coding agents are surprisingly good 
+ at writing code. The problem is keeping them aligned with what you actuall
+ y asked for as a project grows.\n\nIn this 90-minute hands-on workshop\, w
+ e'll build an application with nWave and follow an idea all the way to wor
+ king code. We'll see how nWave turns expectations into executable checks\,
+  uses Agda and TLA+ to verify design decisions\, and runs implementation t
+ hrough a deterministic execution system designed to prevent context drift 
+ between intent\, design\, code\, and validation.\n\nRather than prompting 
+ an agent and reviewing what comes back\, we'll work through an expectation
+ -driven development loop where each step produces constraints for the next
+ . Along the way\, we'll examine the generated code\, tests\, and verificat
+ ion artifacts to understand what the system can guarantee — and where hu
+ man judgment still belongs.\n\nYou'll leave with a working application and
+  a concrete model for building agentic development workflows where correct
+ ness doesn't depend on an agent remembering the right context.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1341997@sessionize-dcbso6w5
+DTSTAMP:20261102T154000Z
+DTSTART;TZID=America/New_York:20261102T154000
+DTEND;TZID=America/New_York:20261102T171000
+SUMMARY:The Developer's Guide to an Agentic Git Forge
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Joseph Katsioloudes\, Peyton Montei\n\nWorkshop\n\nCo
+ ding agents help us ship fast\, but they’ve introduced a new challenge: 
+ ensuring developers can understand\, trust\, and maintain agent-generated 
+ code.\n\nThat challenge now shows up across the software development lifec
+ ycle:\n\n1. Context is scattered across multiple sessions. 2. Developers h
+ ave more code to review and less context to review it with.\n3. Code hosts
+  face more automated activity than they were designed for.\n4. Agents burn
+  tokens just trying to understand the codebase.\n\nSolving these problems 
+ requires a new workflow and mindset for working with agents. In this hands
+ -on workshop\, you’ll learn how to preserve context across sessions\, re
+ duce wasted tokens\, and review agent-generated changes with the context y
+ ou need to merge confidently.\n\nThis workshop is for engineers\, tech lea
+ ds\, and reviewers of all experience levels who want to work more efficien
+ tly with coding agents.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:534a7a22-d7bd-443f-9de5-cc383fe2d695@sessionize-dcbso6w5
+DTSTAMP:20261103T080000Z
+DTSTART;TZID=America/New_York:20261103T080000
+DTEND;TZID=America/New_York:20261103T090000
+SUMMARY:Registration and Breakfast
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1369552@sessionize-dcbso6w5
+DTSTAMP:20261103T090000Z
+DTSTART;TZID=America/New_York:20261103T090000
+DTEND;TZID=America/New_York:20261103T092000
+SUMMARY:Welcome to AI DevCon
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Simon Maple\n\nConference Session\n\nLivestreamed for
+  virtual attendees
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1324623@sessionize-dcbso6w5
+DTSTAMP:20261103T092000Z
+DTSTART;TZID=America/New_York:20261103T092000
+DTEND;TZID=America/New_York:20261103T095000
+SUMMARY:Building a software factory you can trust.
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Guy Podjarny\n\nKeynote · Agent Governance\, Securit
+ y & Trust\n\nLivestreamed for virtual attendees\n\nBuilding a software fac
+ tory isn’t the hard part — trusting it is. As AI systems take on more 
+ of the development lifecycle\, the real bottleneck shifts from capability 
+ to confidence and control. \n\nIn this talk\, we’ll explore a practical 
+ path from skills\, to loops\, to a software factory: building up autonomy 
+ in stages\, with the structure\, feedback\, and guardrails needed to trust
+  each step. We’ll look at what makes that factory trustworthy\, and how 
+ our role shifts from writing every line to steering a system we can genuin
+ ely rely on.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1348505@sessionize-dcbso6w5
+DTSTAMP:20261103T100500Z
+DTSTART;TZID=America/New_York:20261103T100500
+DTEND;TZID=America/New_York:20261103T103500
+SUMMARY:Agent Platforms for Inventing Agents
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ryan Lopopolo\n\nConference Session · Software Facto
+ ries & Dark Factories\n\nLevel: Intermediate\n\nLivestreamed for virtual a
+ ttendees\n\nAn agent is a parameterized program over a set of capabilities
+ : a model\, context\, a computer\, a filesystem\, tools\, runtimes\, netwo
+ rk access\, identity\, guardrails\, and the instructions that bind them to
+ gether.\n\nWe are beginning to recognize those primitives. What we do not 
+ know is the best implementation of almost any of them.\n\nThat makes the a
+ rchitecture of an agent platform unusually important. If the platform hard
+ -codes today’s assumptions\, every new idea becomes a feature request. I
+ nstead\, it should behave more like a microkernel: expose composable primi
+ tives\, make their implementations swappable\, and let builders invent the
+  agent they need.\n\nThis talk develops that model from first principles a
+ nd shows how harness engineering\, tool discovery\, verification\, governa
+ nce\, judges\, and autonomous software factories emerge naturally from it.
+ \n\nWe are early enough that we should optimize for discovering what works
+ \, not standardizing what happened to work first.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:c614a14e-6120-4962-90d3-40eb81b2e790@sessionize-dcbso6w5
+DTSTAMP:20261103T103500Z
+DTSTART;TZID=America/New_York:20261103T103500
+DTEND;TZID=America/New_York:20261103T110500
+SUMMARY:Coffee break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1365736@sessionize-dcbso6w5
+DTSTAMP:20261103T110500Z
+DTSTART;TZID=America/New_York:20261103T110500
+DTEND;TZID=America/New_York:20261103T113500
+SUMMARY:Models Alone Aren't Enough: Engineering Context as a Graph for Huma
+ n + Agent Teams
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Alan Braun\n\nConference Session · Context & Skills 
+ Engineering\n\nLevel: Intermediate\n\nLivestreamed for virtual attendees\n
+ \nAI capability is advancing faster than organizational productivity. Fron
+ tier models have moved from handling tasks that take humans minutes to tas
+ ks that take hours. But making individuals more productive does not automa
+ tically make teams and companies more productive\, especially when work sp
+ ans functions\, systems\, and dependencies.\n\nCollaboration has always re
+ quired transferring context. An engineer and a product manager need to sha
+ re requirements\, technical constraints\, and past decisions. Human-to-age
+ nt and agent-to-agent collaboration extend that challenge: a coding agent 
+ assigned a Jira issue needs the relevant requirements\, related bugs\, dep
+ endencies\, and rationale. That context lives across Slack and Teams actio
+ n items\, Google Docs requirements\, Jira epics and workflows\, meeting no
+ tes\, and bespoke systems.\n\nConnected context can improve both agent per
+ formance and efficiency. In this talk\, we share how Atlassian approaches 
+ this with a graph that connects context sources and the relationships amon
+ g people\, work\, and decisions\, so agents get relevant context without b
+ rute-force searching every tool. We walk through a recorded benchmark of t
+ he same agent answering the same question with siloed tool access versus g
+ raph-based context\, and show how we score answers with a blind LLM judge 
+ on groundedness\, accuracy\, comprehensiveness\, and usefulness. Our inter
+ nal benchmarks suggest graph-based context improves response quality while
+  reducing token costs.\n
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1356104@sessionize-dcbso6w5
+DTSTAMP:20261103T114500Z
+DTSTART;TZID=America/New_York:20261103T114500
+DTEND;TZID=America/New_York:20261103T121500
+SUMMARY:Building When Code is Cheap and Your Time is Not
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Aidan Cunniffe\n\nConference Session · Standardizati
+ on & Reuse at Scale\n\nLevel: Intermediate\n\nLivestreamed for virtual att
+ endees\n\nHot take: many of us are trying to build software factories by o
+ ptimizing the outer loop. What if the most important work is actually insi
+ de the four walls of our applications?\n\nWe can now build software faster
+  than we can understand it. This session explores how purpose-built framew
+ orks\, DSLs\, and other abstractions once too expensive to justify can hel
+ p us optimize for review and maintainability—compressing implementation 
+ into clear intent and eliminating repeated judgment\, not just repeated co
+ de.\n\nWhen writing code was expensive\, we optimized for reuse. When unde
+ rstanding code is expensive\, we should optimize for comprehension.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1349722@sessionize-dcbso6w5
+DTSTAMP:20261103T122500Z
+DTSTART;TZID=America/New_York:20261103T122500
+DTEND;TZID=America/New_York:20261103T125500
+SUMMARY:Building a harness that keeps up with the latest models
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nConference Session · Con
+ tinuous Evaluation & Optimization\n\nLevel: Intermediate\n\nLivestreamed f
+ or virtual attendees\n\nEvery new model changes what a good harness looks 
+ like. The prompts\, guardrails and workarounds that made the last one work
+  can hold the next one back.\n\nI work with AI-native startups at Anthropi
+ c to keep their harnesses in step with each new frontier model\, so they g
+ et the best out of it on their use cases from day one.\n\nThis talk is abo
+ ut building a harness that keeps up: how to spot what a new model no longe
+ r needs\, test what changed fast\, and ship the upgrade in days\, not mont
+ hs. Practical tips and tricks\, straight from the field.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:f97f7243-20e3-4e00-a92f-5656f38c70b6@sessionize-dcbso6w5
+DTSTAMP:20261103T125500Z
+DTSTART;TZID=America/New_York:20261103T125500
+DTEND;TZID=America/New_York:20261103T135500
+SUMMARY:Lunch Break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1342462@sessionize-dcbso6w5
+DTSTAMP:20261103T135500Z
+DTSTART;TZID=America/New_York:20261103T135500
+DTEND;TZID=America/New_York:20261103T142500
+SUMMARY:Security in GitHub Agentic Workflows
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Landon Cox\n\nConference Session · Agent Governance\
+ , Security & Trust\n\nLevel: Intermediate\n\nLivestreamed for virtual atte
+ ndees\n\nGitHub Agentic Workflows is like a team of street sweepers that c
+ lean up messes in your repo. These teams significantly improve repo hygien
+ e and quality\, but CI jobs like Agentic Workflows largely run out of sigh
+ t and out of mind. How do you put guardrails on agents that have access to
+  your repository and the internet? Will you be wondering if your agents re
+ ad documentation from a sketchy website or pushed a commit containing an A
+ PI token? What if they decide to add spammy comments to every open issue?\
+ n\nOur approach to security in Agentic Workflows is guided by three design
+  principles: (1) isolate agents from secrets\, (2) control agent inputs ba
+ sed on repo-maintainer endorsements\, and (3) stage and vet all repo updat
+ es. This talk will discuss how we apply those principles and the biggest c
+ hallenges we see on the horizon.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1324898@sessionize-dcbso6w5
+DTSTAMP:20261103T143500Z
+DTSTART;TZID=America/New_York:20261103T143500
+DTEND;TZID=America/New_York:20261103T150500
+SUMMARY:An Architectural Approach to Regenerative Software
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Chad Fowler\n\nConference Session · Context & Skills
+  Engineering\n\nLevel: Intermediate\n\nLivestreamed for virtual attendees\
+ n\nPhoenix Architecture is a way of thinking about software in a world whe
+ re implementations can be rewritten faster than they can be understood. As
+  AI shifts the economics from maintenance to regeneration\, the real archi
+ tectural questions move upstream: what must remain stable\, what can safel
+ y change\, and what breaks humans when it breaks at all. This talk offers 
+ a set of lenses (not answers) for reasoning about durability\, trust\, and
+  coherence in long-lived systems. Attendees should leave with new instinct
+ s\, sharper questions\, and a sense that some of our deepest assumptions a
+ bout software may need to be revisited.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1323421@sessionize-dcbso6w5
+DTSTAMP:20261103T151500Z
+DTSTART;TZID=America/New_York:20261103T151500
+DTEND;TZID=America/New_York:20261103T154500
+SUMMARY:Your Agent Just Wrote a Tool—and Ran It. You Need More than a San
+ dbox.
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Cornelia Davis\n\nConference Session · Agent Governa
+ nce\, Security & Trust\n\nLevel: Intermediate\n\nLivestreamed for virtual 
+ attendees\n\nAI agents are already well entrenched in the traditional soft
+ ware delivery lifecycle: they build\, review\, test\, and deploy code\, ye
+ t even as we automate more and more\, we are still talking about a control
+ led build-test-deploy cycle.\n\nBut what happens when an agent writes and 
+ executes new code not as a deliverable\, but as a tool for accomplishing i
+ ts current goal? There is no pull request\, deployment pipeline\, or human
+  checkpoint. This is testing in production in its most literal form.\n\nTh
+ e DevOps movement made testing in production viable by creating safety net
+ s: containers\, progressive delivery\, observability\, and rapid rollback.
+  Runtime code generation by autonomous agents needs its own safety net\, a
+ nd a sandbox is only the beginning. A sandbox controls where code runs\; i
+ t does not fully control what that code can do.\n\nIn this demo-heavy sess
+ ion\, we’ll examine the execution model required for agents to safely cr
+ eate and run code without human intervention. Generated code must remain i
+ nside the host agent’s governed context: inheriting its tool permissions
+ \, policy constraints\, and relevant event history\, without acquiring cap
+ abilities the agent itself does not possess.\n\nWe’ll introduce an execu
+ tion environment built around these principles\, explore its architecture\
+ , and share practical patterns for making runtime code generation observab
+ le\, auditable\, and bounded.\n
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:d0e2cb56-7e8d-4ac3-8e79-f02d577bc2dd@sessionize-dcbso6w5
+DTSTAMP:20261103T154500Z
+DTSTART;TZID=America/New_York:20261103T154500
+DTEND;TZID=America/New_York:20261103T161500
+SUMMARY:Coffee break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1340105@sessionize-dcbso6w5
+DTSTAMP:20261103T161500Z
+DTSTART;TZID=America/New_York:20261103T161500
+DTEND;TZID=America/New_York:20261103T164500
+SUMMARY:Scaling Agentic Engineering at Zalando
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Bartosz Ocytko\n\nConference Session · Standardizati
+ on & Reuse at Scale\n\nLevel: Intermediate\n\nLivestreamed for virtual att
+ endees\n\nIn the session\, I will be presenting Zalando's journey to enabl
+ e agentic engineering for >2000 engineers. The session will open with the 
+ observed effects of AI in coding on: engineers\, codebase quality\, and pr
+ ocess bottlenecks. Key wins and enablers will be shown\, such as: customer
+ -facing chat bots\, LLM-assisted (mass) migrations\, risk-based PR assessm
+ ents. Further\, foundational pieces for enterprise enablement will be shar
+ ed: platform investments (proxy\, agent platform\, skills\, readiness scan
+ ning)\, tool integration & governance\, and enterprise guardrails that mak
+ e adoption safe. The session will end by promoting mechanisms for bottom-u
+ p knowledge sharing & upskilling that have proven their value at scale.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1332817@sessionize-dcbso6w5
+DTSTAMP:20261103T170000Z
+DTSTART;TZID=America/New_York:20261103T170000
+DTEND;TZID=America/New_York:20261103T173000
+SUMMARY:The Future of AI-Powered Factories
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Steve Yegge\n\nKeynote · Standardization & Reuse at 
+ Scale\n\nLivestreamed for virtual attendees\n\nGet ready for a provocative
+  closing keynote packed with AI-fuelled ideas from Steve Yegge\, the creat
+ or of Gas Town and Beads.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1369553@sessionize-dcbso6w5
+DTSTAMP:20261103T180000Z
+DTSTART;TZID=America/New_York:20261103T180000
+DTEND;TZID=America/New_York:20261103T210000
+SUMMARY:🎉 Conference Party
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Social\n\n📍 Carreau Club\, Brooklyn\, New York\n\nThe talks 
+ might be over\, but the fun is just getting started!\n\nJoin us at Carreau
+  Club for an evening of drinks\, great conversations\, and a chance to unw
+ ind with the AI developer community. Catch up with familiar faces\, make n
+ ew connections\, and keep the conversations going beyond the conference fl
+ oor.\n\nGood vibes\, great people\, and plenty of AI talk. See you there! 
+ 🍻
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1348430@sessionize-dcbso6w5
+DTSTAMP:20261103T100500Z
+DTSTART;TZID=America/New_York:20261103T100500
+DTEND;TZID=America/New_York:20261103T103500
+SUMMARY:Beyond the Pilot: Enabling AI Coding in Regulated Enterprises
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Mashrur Hossain\n\nLeadership Track · Standardizatio
+ n & Reuse at Scale\n\nLevel: Intermediate\n\nGetting an AI coding tool int
+ o developers’ hands is only the beginning. In large\, regulated enterpri
+ ses\, sustained adoption depends on how well it fits the organization’s 
+ security controls\, developer environments\, engineering practices\, and e
+ xpectations for measurable value.\nDrawing on my experience helping large 
+ financial-services organizations adopt AI-assisted development\, I’ll sh
+ are practical lessons about turning initial interest into everyday enginee
+ ring use. We’ll explore how to identify focused\, valuable use cases\; a
+ lign security\, platform\, and engineering teams\; and build hands-on enab
+ lement around the work developers actually need to do.\nWe’ll also exami
+ ne where adoption stalls: workshops without a clear follow-through plan\, 
+ environment and access issues that interrupt momentum\, and metrics that t
+ rack activity without demonstrating outcomes. These experiences show why e
+ nterprise enablement is an ongoing organizational capability\, not a one-t
+ ime training event.\nAttendees will leave with a practical approach to sca
+ ling AI coding adoption: establish technical readiness\, define ownership\
+ , develop internal champions\, connect learning to real workflows\, and cr
+ eate feedback loops that improve both the developer experience and the rol
+ lout itself.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1336211@sessionize-dcbso6w5
+DTSTAMP:20261103T110500Z
+DTSTART;TZID=America/New_York:20261103T110500
+DTEND;TZID=America/New_York:20261103T113500
+SUMMARY:From individual coding tools to development coding platforms
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Massimo Re Ferre'\n\nLeadership Track · Real-World P
+ laybooks\n\nLevel: Beginner\n\nThis session explores the opportunities and
+  challenges observed in large organizations as they navigate their ongoing
+  journeys. These journeys span a broad spectrum from individual\, in-line 
+ coding assistance to ambitious attempts at building team-level software fa
+ ctories. I'll focus on a few key dimensions that shape these opportunities
+  and challenges\, beginning with the concept of trust\, along with the eco
+ nomics I've observed while working with AWS customers and engineering orga
+ nizations at Amazon. I'll also share what has worked well as a solution or
+  mitigation to specific challenges\, and what hasn't. Expect more anecdote
+ s than data.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1349384@sessionize-dcbso6w5
+DTSTAMP:20261103T114500Z
+DTSTART;TZID=America/New_York:20261103T114500
+DTEND;TZID=America/New_York:20261103T121500
+SUMMARY:From AI Coding to the Agentic SDLC: Booking.com’s Journey Toward 
+ Autonomous Software Delivery
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Valerio Panzica\n\nLeadership Track · Leadership\n\n
+ Level: Intermediate\n\nOver the last few years\, AI has rapidly changed ho
+ w we think about software engineering at Booking.com.\n\nOur journey start
+ ed with experimentation: giving engineers access to emerging AI coding too
+ ls\, learning where they created real value\, and understanding how develo
+ pers actually changed the way they worked.\n\nAs the technology matured\, 
+ so did our approach. We moved from experimenting with individual tools tow
+ ard building shared capabilities\, scaling adoption across the engineering
+  organization\, and embedding AI more deeply into the software development
+  lifecycle.\n\nIn this talk\, I’ll share the evolution of our GenAI for 
+ Engineering journey at Booking.com: what we tried\, what we learned\, how 
+ our strategy changed\, and why we are now moving beyond coding assistants 
+ toward an Agentic SDLC.\n\nI’ll also share our vision for the next phase
+ : an increasingly autonomous software delivery lifecycle where specialized
+  agents participate across planning\, design\, implementation\, validation
+ \, operations\, and observation\; reusable golden paths connect those capa
+ bilities into end-to-end workflows\; and engineers progressively move from
+  executing every step themselves to supervising and orchestrating AI-power
+ ed delivery systems.\n\nThe destination is not software development withou
+ t engineers. It is a fundamentally different engineering system\, where hu
+ mans increasingly define intent\, constraints\, and outcomes while agents 
+ take on more of the execution.\n
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1340875@sessionize-dcbso6w5
+DTSTAMP:20261103T122500Z
+DTSTART;TZID=America/New_York:20261103T122500
+DTEND;TZID=America/New_York:20261103T125500
+SUMMARY:Who Gets the Keys? Trust and Authority in Software Factories
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Paul Duvall\n\nLeadership Track · Agent Governance\,
+  Security & Trust\n\nLevel: Intermediate\n\nAs software factories become m
+ ore autonomous\, the hard problem shifts from generating code to deciding 
+ who holds authority over what ships. Human review of a diff was never that
+  control\, and at agent speed it can't keep up.\n\nThis talk follows a cha
+ nge from customer intent to a running system across three feedback latenci
+ es: seconds in the agent loop\, minutes in CI\, and hours in production. A
+ long the way\, untrusted input tries to steer the agent\, a pattern alread
+ y behind real-world incidents.\n\nYou'll learn which pipeline controls sti
+ ll hold\, which ones change\, and which agent-specific checks to add. We'l
+ l separate authorship from authority. Agents can write code\, tests\, and 
+ fixes. The open question is who decides whether any of it ships.\n\nYou'll
+  leave knowing how to verify intent\, not just behavior\, where human judg
+ ment still belongs\, and who should hold the keys to production.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1318692@sessionize-dcbso6w5
+DTSTAMP:20261103T135500Z
+DTSTART;TZID=America/New_York:20261103T135500
+DTEND;TZID=America/New_York:20261103T142500
+SUMMARY:Botsitting Doesn't Scale: How to Navigate the Autonomy-Trust Gridlo
+ ck in Real Engineering Orgs
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Nicholas Arcolano\n\nLeadership Track · Agent Govern
+ ance\, Security & Trust\n\nLevel: Intermediate\n\nEvery engineering organi
+ zation is trying to maximize two things for their agents right now: autono
+ my and trust. The problem is that the standard way to build each one under
+ mines the other.\n\nTrust gets built through supervision\, by watching the
+  agent work\, reviewing everything\, and always keeping a human in the loo
+ p. That's how most teams operate today\, and it sets a hard cap on scaling
+ \, as humans struggle to supervise more than a handful of agents directly.
+  Autonomy is what actually scales\, but it means trusting work you didn't 
+ watch happen. A micromanaged factory isn't efficient\, and an untrusted fa
+ ctory can't be pointed at anything that matters.\n\nI've been studying thi
+ s gridlock using data from the Jellyfish platform\, which combines AI agen
+ t telemetry with software engineering workflow data across 1\,000+ compani
+ es and over a million developer-weeks of AI tool usage.\n\nThe trust probl
+ em is real: currently about 40% of the pull requests written by autonomous
+  agents don’t get shipped. The teams closing that gap aren't botsitting 
+ more closely. They're replacing supervision with verification\, using revi
+ ew discipline and better scaffolding to build trust on artifacts instead o
+ f attention. The loudest workflow debates of 2026 – from killing the pul
+ l request to mandatory human review to real-time steering – are all comp
+ eting answers to the same problem.\n\nThis session will share lessons on h
+ ow to navigate the autonomy-trust gridlock drawn from real production data
+ \, and a way to tell which trust-building strategies scale and which ones 
+ will become the next major bottleneck. Supervision is how you build trust 
+ in an agent. Verification is how you build trust in a factory.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1373427@sessionize-dcbso6w5
+DTSTAMP:20261103T143500Z
+DTSTART;TZID=America/New_York:20261103T143500
+DTEND;TZID=America/New_York:20261103T150500
+SUMMARY:1\,000 Coding Agents\, One Main: Leading the Shift to Concurrent De
+ livery
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Patrick Debois\n\nLeadership Track · Software Factor
+ ies & Dark Factories\n\nLevel: Intermediate\n\nOrganizations are building 
+ software factories: fleets of coding agents\, automated validation\, chang
+ es that merge themselves. But what happens when you actually turn the fact
+ ory on? Hundreds of agents start working at once\, and their work collides
+  as it comes back together into one codebase\, one release\, and one perso
+ n’s understanding of the system. Code gets written faster\, but delivery
+  doesn’t speed up with it.\n\nTwo coordination problems sit underneath: 
+ \n- Agents must work alongside each other without undoing each other’s w
+ ork. Or having turf wars on the code base.\n- And people\, whose attention
+  is now the scarce resource\, must still direct the work and decide what s
+ hips\, even when no person wrote the change.\n\nThe next advantage isn’t
+  faster agents. It’s delivering when they all work at once.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1346589@sessionize-dcbso6w5
+DTSTAMP:20261103T151500Z
+DTSTART;TZID=America/New_York:20261103T151500
+DTEND;TZID=America/New_York:20261103T154500
+SUMMARY:Coming soon
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Dan Lorenc\n\nLeadership Track
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1349717@sessionize-dcbso6w5
+DTSTAMP:20261103T161500Z
+DTSTART;TZID=America/New_York:20261103T161500
+DTEND;TZID=America/New_York:20261103T164500
+SUMMARY:Why Your CTO Is Suddenly Writing Code
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Rob Zuber\n\nLeadership Track · Leadership\n\nLevel:
+  Intermediate\n\nRob has spent 25 years building a mental model of how sof
+ tware gets made\, and AI broke it. Suddenly he couldn't tell where his eng
+ ineers were stuck\, and he wasn't sure his instincts still counted for any
+ thing. So he went back to the code\, and not as a side quest\, because the
+ re's no substitute for a gameday and no way to understand how your enginee
+ rs live without living it. What does it look like when a leader gets that 
+ close to the work and still has to make the calls in a market that moves t
+ his fast? \n\nYou'll hear an honest account of what he got wrong and what 
+ was humbling. If you lead\, you'll know when to dig in\, when to shortcut 
+ the hierarchy and decide\, and when to get out of the way. If your leaders
+  have started asking odd questions or poking at your tools\, you'll know w
+ hat to expect from them right now and how to help them catch up.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1324093@sessionize-dcbso6w5
+DTSTAMP:20261103T100500Z
+DTSTART;TZID=America/New_York:20261103T100500
+DTEND;TZID=America/New_York:20261103T103500
+SUMMARY:Dealing with Agentic Coding Risk: What Breaks Going From 1 Agent to
+  10
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: James Moss\n\nTools-in-Action · Real-World Playbooks
+ \n\nAdding more coding agents does not multiply output cleanly. It creates
+  a coordination system with new failure modes: agents editing the same cod
+ e\, maintenance work triggering more maintenance work\, tasks competing fo
+ r shared state\, and failures that no single agent appears to own.\n\nThis
+  session is a field report from scaling an internal software factory from 
+ individual agent runs to concurrent\, connected workflows. We will examine
+  what breaks when agents stop operating in isolation\, including conflicti
+ ng changes\, recursive triggers\, non-deterministic execution\, and recove
+ ry paths that create more work than the original failure. The focus is not
+  generic multi-agent theory. It is the practical risk of letting multiple 
+ coding agents act on the same repositories\, queues\, and delivery process
+ .\n\nAttendees will learn where orchestration needs explicit ownership\, i
+ solation\, idempotency\, and stop conditions\, plus how to design systems 
+ that detect collisions and recover without silently compounding the proble
+ m.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1369990@sessionize-dcbso6w5
+DTSTAMP:20261103T110500Z
+DTSTART;TZID=America/New_York:20261103T110500
+DTEND;TZID=America/New_York:20261103T113500
+SUMMARY:Hack the planet? Patch the planet.
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Geoffrey Huntley\n\nTools-in-Action · Agent Governan
+ ce\, Security & Trust\n\nLevel: Beginner\n\nWhen a certificate authority i
+ s compromised\, a compression library is vulnerable\, or a package is pois
+ oned\, patching the one copy you own is easy. Patching every copy buried i
+ n transitive dependencies is not. Each ecosystem\, base image\, and runtim
+ e carries its own\, and each needs its own patch\, release\, and redeploy.
+ \n\nMost teams open a pull request upstream and wait. The maintainer never
+  signed up to be their vendor\, is already drowning in AI-generated PRs\, 
+ and owes them nothing under an “as is” license. Or they fork it\, then
+  own the build pipeline\, the artifact registry\, and a divergence that st
+ arts rotting the moment they stop looking.\n\nYour supply chain moves at t
+ he speed of the slowest maintainer you depend on. That’s a hostage situa
+ tion.\n\nThis talk shows another way. Define a single source of truth for 
+ every dependency across the stack\, from the developer laptop to CI\, cont
+ ainer images\, agent sandboxes\, and the operating system that enables an 
+ agent to patch the world. \n\nOne prompt to an AI agent answers “are we 
+ affected?” across the fleet. One patch\, written once by an agent\, fixe
+ s everything that depends on the broken component. No fork. No waiting. No
+  PR queue.\n\n
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1335505@sessionize-dcbso6w5
+DTSTAMP:20261103T114500Z
+DTSTART;TZID=America/New_York:20261103T114500
+DTEND;TZID=America/New_York:20261103T121500
+SUMMARY:Did It Actually Improve the Software Factory?
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Chris Poulter\n\nTools-in-Action · Continuous Evalua
+ tion & Optimization\n\nLevel: Expert\n\nA software factory can produce mor
+ e code\, more retrospectives and more improvement issues without getting a
+ ny better. How do we turn experience into a justified change\, and establi
+ sh whether it helped?\n\nDrawing on practical failures and design decision
+ s from building Nucleus\, this talk explores the improvement lifecycle: di
+ scovering opportunities\, testing proposed changes and deciding which to p
+ ut into practice. A lesson might lead to better instructions\, a determini
+ stic check or an earlier human decision. Improvement can mean simplifying 
+ the process as readily as adding automation.\n\nThe critical part comes af
+ ter adoption: did the change actually improve the software factory? We’l
+ l examine how to judge its effect on software quality\, delivery time\, co
+ st and human effort\, and whether the evidence justifies keeping it.\n\nTh
+ is is not a software factory overview or a product demonstration. It is ab
+ out engineering the process by which a factory discovers\, tests and retai
+ ns improvements\, without assuming it automatically gets better after ever
+ y run. Attendees will leave with an improvement lifecycle they can apply t
+ o their own development workflows.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1341862@sessionize-dcbso6w5
+DTSTAMP:20261103T122500Z
+DTSTART;TZID=America/New_York:20261103T122500
+DTEND;TZID=America/New_York:20261103T125500
+SUMMARY:The Tool Got Smarter. Did You?
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ahmed E. Hassan\n\nTools-in-Action · Real-World Play
+ books\n\nLevel: Beginner\n\nAI coding is often presented as a technology s
+ hift: better models\, longer context windows\, and more capable agents. Bu
+ t the real change is much deeper. This is a new way of thinking about how 
+ we understand problems\, discover solutions\, build software\, evaluate ev
+ idence\, and take responsibility for what we ship.\n\nThe tool changed. Th
+ e question is: did we?\n\nWhen AI can explore a codebase\, propose a desig
+ n\, implement a feature\, write tests\, and review its own work\, being a 
+ good engineer can no longer mean simply producing good code. We must becom
+ e better at framing problems\, expressing intent\, directing work\, questi
+ oning convincing answers\, learning through rapid experimentation\, and ex
+ ercising judgment when no test can tell us what is right. Leaders must als
+ o rethink what they reward\, how people learn\, and what meaningful AI ado
+ ption actually looks like.\n\nThis is not a talk about which coding agent 
+ to buy or which prompt to use. It is about the human and organizational tr
+ ansformation required when the tool becomes dramatically more capable. Thr
+ ough relatable stories\, uncomfortable failures\, and seven practical prin
+ ciples plus one essential constraint\, we will explore how to benefit from
+  AI without becoming passive\, superficial\, or dependent on it.\n\nThe ce
+ ntral question is no longer simply\, “How do I use this new tool?” It 
+ is\, “Who do I need to become now that the tool can do so much of what u
+ sed to define my work?”
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1340999@sessionize-dcbso6w5
+DTSTAMP:20261103T135500Z
+DTSTART;TZID=America/New_York:20261103T135500
+DTEND;TZID=America/New_York:20261103T142500
+SUMMARY:How SpaceXAI Uses Cursor
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Shivam Jindal\n\nTools-in-Action · Real-World Playbo
+ oks\n\nLevel: Intermediate\n\nSoftware delivery at SpaceXAI no longer look
+ s like a person writing a PR and waiting on a queue. A majority of our mer
+ ged PRs are fully done by cloud agents\, end to end. In nine months\, PR v
+ olume grew 5x. That is how a small team ships Origin\, a new take on GitHu
+ b\, and Grok Bot\, a general-purpose worker\, without slowing down the cor
+ e product.\n\nFaster coding just moved the bottleneck. Review\, CI\, secur
+ ity\, and ownership still had to happen\, and they could not scale as a hu
+ man queue. So we automated those loops\, and left people on the work that 
+ actually needs judgment.\n\nMost of it runs in the background. Long-runnin
+ g cloud agents sit on their own machines for hours: a Slack thread\, incid
+ ent\, a ticket\, or a red build starts one\, it investigates and reproduce
+ s\, then it opens a PR. Other agents review for bugs and security and size
+  the risk. If CI fails\, another agent reads the logs and failed tests and
+  tries a fix. Low-risk PRs can self-drive through merge. \n\nThis is the f
+ actory we run internally.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1340065@sessionize-dcbso6w5
+DTSTAMP:20261103T143500Z
+DTSTART;TZID=America/New_York:20261103T143500
+DTEND;TZID=America/New_York:20261103T150500
+SUMMARY:Minimize Review and Increase Trust: A Verification-Aware Process fo
+ r Agentic Programming
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Fernanda Graciolli\, Nada Amin\n\nTools-in-Action · 
+ Agent Governance\, Security & Trust\n\nLevel: Intermediate\n\nOne of the m
+ ost powerful uses of AI in software engineering is automation. But true au
+ tomation with minimal human oversight requires a high degree of trust in t
+ he system’s ability to generate correct output. Given that long-running 
+ processes anchor the next output to its own prior outputs\, an error along
+  the way compounds quickly and may render the entire session or project un
+ usable. We present a “verification-aware” process of programming with 
+ AI that embeds various verification methods — with formal verification a
+ s the grounding method. This process is flexible enough to accommodate too
+ ling preferences\, organization-specific policies\, and cost/risk toleranc
+ e.\n\nWe’ll focus on practical patterns for verification-aware programmi
+ ng inspired by functional programming\, how verifier feedback can guide ag
+ ents to reason about correctness\, and how to ensure informal and formal s
+ pecifications don’t drift. The process and methods result in a considera
+ ble decrease in review burden while increasing confidence in output correc
+ tness.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1293077@sessionize-dcbso6w5
+DTSTAMP:20261103T151500Z
+DTSTART;TZID=America/New_York:20261103T151500
+DTEND;TZID=America/New_York:20261103T154500
+SUMMARY:Rebuilding the Software Lifecycle for Coding Agents and Humans
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Joseph Katsioloudes\, Peyton Montei\n\nTools-in-Actio
+ n · Context & Skills Engineering\n\nLevel: Intermediate\n\nCoding agents 
+ are writing code faster than ever\, picking up issues and stories with gro
+ wing autonomy. Yet context is fragmenting across chats\, prompts\, session
+ s\, and branches\, leaving agents stateless and developers without a share
+ d understanding of intent\, decisions\, and learning. And the human develo
+ per still sits at the center of the pull request\, reviewing code and sugg
+ estions.\n\nIt's time for a new software development lifecycle for a world
+  of agent-to-human and agent-to-agent collaboration\, one that collapses p
+ lanning\, coordination\, design\, implementation\, review\, and deployment
+  into a continuous loop. And one that removes bottlenecks while preserving
+  quality\, trust\, and developer happiness. Join Joseph Katsioloudes for a
+  demo-filled talk on what this loop looks like in practice today\, where i
+ t breaks\, and what you can start changing in your own workflow.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1317015@sessionize-dcbso6w5
+DTSTAMP:20261103T161500Z
+DTSTART;TZID=America/New_York:20261103T161500
+DTEND;TZID=America/New_York:20261103T164500
+SUMMARY:In the loop\, not in the dark: staying in control in the era of dar
+ k software factories
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Alex Gavrilescu\n\nTools-in-Action · Context & Skill
+ s Engineering\n\nLevel: Beginner\n\nLast year I built Backlog.md\, an open
+  source tool that captures your intent\, splits it into small markdown tas
+ ks\, and lets you follow your agents' progress on a TUI Kanban board. A ye
+ ar and 300\,000 agent-written lines later\, my projects had quietly turned
+  into a small dark factory: software getting built with nobody really revi
+ ewing it. Task tracking told me what the agents did\, but not what my syst
+ em had become. I am no longer the owner of my code.\n\nToday I am building
+  Groma.md to fix this. Groma keeps a real-time architectural blueprint of 
+ your project's domain as the source of truth\, and tasks become the means 
+ to reach the blueprint's next iteration. Imagine UML without the fear that
+  it goes stale\, where you can watch exactly which parts of the system you
+ r agents are modifying.\n\nWhether you are adding an order management syst
+ em to a brownfield codebase or starting a new project from scratch\, you d
+ esign it in Groma and let the agents write the code\, while you keep an ey
+ e on the overall architecture and stay in control of the meaningful decisi
+ ons.\n\nIn this talk I will take a large open source repository and map it
+  into a Groma blueprint live on stage\, to show you how to become the owne
+ r of your code again.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:21d25df0-512e-431b-8a88-31c698dd97c5@sessionize-dcbso6w5
+DTSTAMP:20261104T080000Z
+DTSTART;TZID=America/New_York:20261104T080000
+DTEND;TZID=America/New_York:20261104T090000
+SUMMARY:Registration and Breakfast
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1371030@sessionize-dcbso6w5
+DTSTAMP:20261104T090000Z
+DTSTART;TZID=America/New_York:20261104T090000
+DTEND;TZID=America/New_York:20261104T092000
+SUMMARY:Welcome to AI DevCon
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Simon Maple\n\nConference Session
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1346550@sessionize-dcbso6w5
+DTSTAMP:20261104T092000Z
+DTSTART;TZID=America/New_York:20261104T092000
+DTEND;TZID=America/New_York:20261104T095000
+SUMMARY:The AI Chop Shop: Everything You Ship Will Be Stolen
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Erik Meijer\n\nKeynote · Agent Governance\, Security
+  & Trust\n\nFor fifty years\, the software industry has thrived on the fac
+ t that code is scarce. Proprietary vendors protect it by keeping the sourc
+ e secret. Open source protects it with licenses that attach obligations to
+  copying.\n\nAI destroys the assumptions underneath both.\n\nA contemporar
+ y coding model needs very little to reverse engineer years of human engine
+ ering effort. Hand it a binary\, an API\, an obfuscated bundle\, or just e
+ nough observed behavior\, and it can infer what the system does\, recover 
+ its structure\, and emit a fresh implementation. The result is clean\, doc
+ umented\, idiomatic\, and has no traceable connection to your "IP." The fu
+ nctionality survives. The provenance doesn't. Trade secrets stop being sec
+ ret the moment you ship. Copyleft has nothing left to grab onto.\n\nWelcom
+ e to the software chop shop. Your software comes in through the back\, get
+ s stripped for parts\, and leaves with new paint and the VIN filed off.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1322896@sessionize-dcbso6w5
+DTSTAMP:20261104T100500Z
+DTSTART;TZID=America/New_York:20261104T100500
+DTEND;TZID=America/New_York:20261104T103500
+SUMMARY:Version Your Factory\, Not Just Your Code
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Daniel Meppiel\n\nConference Session · Standardizati
+ on & Reuse at Scale\n\nLevel: Intermediate\n\nMost agentic software factor
+ ies begin as a collection of prompts\, scripts\, and agent skills. That wo
+ rks until a model changes\, the team adopts another harness\, or a securit
+ y rule requires changes across the entire factory.\n\nWhat if we treated t
+ he factory like the software it produces?\n\nIts capabilities would become
+  composable modules. They would have versions\, dependencies\, tests\, own
+ ers\, and release notes. Once factory capabilities become versioned compon
+ ents\, they can be tested\, reviewed\, shared\, replaced\, and composed. T
+ eams could upgrade one part without rewriting the rest. Factories could be
+  improved through the same open-source practices that built the rest of ou
+ r software ecosystem.\n\nAgent Plugins 1.0 gives us a starting point by ma
+ king Skills and MCP servers easier to move between harnesses. The factory 
+ sits above them: the process remains stable while Copilot\, Claude Code\, 
+ Codex\, and other harnesses can be swapped underneath it.\n\nThe same prin
+ ciple applies to governance. A factory can accept reusable and swappable r
+ ules about tools\, risk\, and required checks. Governance determines which
+  versions and capabilities may run.\n\nI’ll demonstrate a prototype fact
+ ory built from versioned modules\, run it through two harnesses\, replace 
+ one capability without changing the workflow\, and show how guardrails as 
+ code allow agents to ship autonomously without crossing their limits.\n\nA
+ gent Plugins 1.0 is not a complete factory specification. That is exactly 
+ why this conversation and more open standards are needed.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:c1f115a8-46da-499d-8156-3f9ae4fdeec5@sessionize-dcbso6w5
+DTSTAMP:20261104T103500Z
+DTSTART;TZID=America/New_York:20261104T103500
+DTEND;TZID=America/New_York:20261104T110500
+SUMMARY:Coffee break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1293900@sessionize-dcbso6w5
+DTSTAMP:20261104T110500Z
+DTSTART;TZID=America/New_York:20261104T110500
+DTEND;TZID=America/New_York:20261104T113500
+SUMMARY:From Page to Dossier — Using Agents to Your Advantage
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Paul Stack\n\nConference Session · Real-World Playbo
+ oks\n\nLevel: Beginner\n\nAn alert fires at 3am. Your on-call engineer ope
+ ns their laptop\, checks Grafana\, tails the logs\, traces what deployed i
+ n the last hour\, diffs the config changes\, checks whether an upstream de
+ pendency is having its own incident\, searches Slack for the last time thi
+ s happened\, and reads half a runbook before they even understand what's w
+ rong. Forty minutes of context-gathering before a single useful decision g
+ ets made.\n\nAn AI agent can do every one of those steps. Not better than 
+ your engineer — but without losing focus at 3am\, or cutting corners onc
+ e the investigation gets repetitive. Wire one into your alerting pipeline.
+  When an alert fires\, it pulls metrics\, correlates logs\, traces deploym
+ ents and config changes\, finds related past incidents\, reads the runbook
+ \, and assembles a dossier that lands alongside the page. Instead of spend
+ ing forty minutes gathering context\, the engineer starts with it.\n\nVend
+ ors are starting to ship their own versions of this — Honeycomb Canvas\,
+  Dash0\, and others. But a vendor's agent knows about the vendor's platfor
+ m. It doesn't know your deployment pipeline\, your change management syste
+ m\, or the five other tools your investigation actually touches. This talk
+  shows how to build your own\, wired into your stack\, producing a dossier
+  that's exactly what your organisation needs. Same structure every time\, 
+ same sections\, same layout — because a sleepy engineer at 3am needs a r
+ eport they can read on autopilot\, not a surprise.\n\nThe agent does not m
+ ake the call. It gathers the evidence and presents it. Your on-call engine
+ er decides what happens next — because they have taste\, judgement\, and
+  the kind of contextual understanding you only get from knowing your syste
+ ms\, your team\, and your business. The goal isn't to take the human out o
+ f the loop. It's to stop wasting their judgement on context-gathering and 
+ point it at the decision that actually matters.\n\nReal demos\, real alert
+ s\, real monitoring data. You're not being replaced. You're arriving with 
+ the first forty minutes already done.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1306269@sessionize-dcbso6w5
+DTSTAMP:20261104T114500Z
+DTSTART;TZID=America/New_York:20261104T114500
+DTEND;TZID=America/New_York:20261104T121500
+SUMMARY:Dark Factory Considered Harmful
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ray Myers\n\nConference Session · Real-World Playboo
+ ks\n\nLevel: Intermediate\n\nNow that the value of coding agents in practi
+ cal software engineering has been established\, many people assume that go
+ ing fully agentic is the logical conclusion. This culminates in a vision c
+ alled the Dark Software Factory - we eventually turn the lights off and ne
+ ver see code again.\n\nThis talk takes the opposite position: Dark Softwar
+ e Factory is flawed as a general recommendation\, and being "more agentic"
+  is not always better. The vision of virtual employees isn't engineering-d
+ riven. It's fueled by fundraising narratives\, investor pressure\, and exe
+ cutives justifying layoffs.\n\nThe proposed alternative is The Show-Me Met
+ hod. Decide based on evidence which parts of your application are "code wo
+ rth writing" and which should be left to agents. Evolve the boundaries ove
+ r time in support of business needs. Aim for high leverage with minimal ri
+ sk.  This involves awareness of your sources of risk and "defense in depth
+ " practices that build on the principles of Continuous Delivery.\n\nAnti-P
+ attern 1: Engineering malpractice. If the rush to signal AI adoption under
+ mines our responsibilities to security\, privacy\, and reliability\, that 
+ is harmful. We have a profession and are trusted to uphold a reasonable st
+ andard of care\, such as the ACM Code of Ethics.\n\nAnti-Pattern 2: Unorga
+ nized labor. Many software engineering teams fear mismanagement and layoff
+ s but are not positioned to respond with collective action. The first step
+  is learning how this works in other trades.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1324091@sessionize-dcbso6w5
+DTSTAMP:20261104T122500Z
+DTSTART;TZID=America/New_York:20261104T122500
+DTEND;TZID=America/New_York:20261104T125500
+SUMMARY:Harness Engineering in Practice: The Loops That Make Agents Trustwo
+ rthy
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Dru Knox\n\nConference Session · Agent Governance\, 
+ Security & Trust\n\nA coding agent is not just a model. It is the model pl
+ us the system around it: context\, permissions\, checks\, reviews\, evalua
+ tions\, and maintenance loops that determine whether its output can be tru
+ sted.\n\nThis session moves beyond defining an agent harness and shows how
+  one works in practice. We will follow a real reliability loop through its
+  full lifecycle: the failure it was designed to catch\, how the team encod
+ ed the right boundary\, what happened when the loop fired\, and how the re
+ sult changed the harness itself. Along the way\, we will examine the trade
+ -offs between strict controls and useful autonomy\, why one-off guardrails
+  decay\, and how teams can turn production failures into reusable improvem
+ ents.\n\nAttendees will leave with a practical model for designing harness
+  loops that catch problems before merge\, improve with use\, and reduce th
+ e amount of manual supervision needed as agent adoption grows.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:fe186ebc-263f-4d5b-8160-90d50f85803e@sessionize-dcbso6w5
+DTSTAMP:20261104T125500Z
+DTSTART;TZID=America/New_York:20261104T125500
+DTEND;TZID=America/New_York:20261104T135500
+SUMMARY:Lunch Break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1338349@sessionize-dcbso6w5
+DTSTAMP:20261104T135500Z
+DTSTART;TZID=America/New_York:20261104T135500
+DTEND;TZID=America/New_York:20261104T142500
+SUMMARY:Your Software Factory Already Has a Name: Continuous Delivery
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Bryan Finster\n\nConference Session · Leadership\n\n
+ Level: Intermediate\n\nMore organizations are attempting to build a softwa
+ re factory. Most are building the assembly line and ignoring what feeds it
+ .\n\nIn 2014\, my team at Walmart went from quarterly releases to 5+ deliv
+ eries a day by asking one question\, "Why can't we deliver today's work to
+ day?" and fixing every answer. \n\nIn 2025\, I hit the same walls with cod
+ ing agents: vague requirements\, review bottlenecks\, and no shared defini
+ tion of "good" all resulted in rework and delayed delivery. I found that t
+ he same principles that fixed it for people also worked for agents. \n\nTh
+ is talk maps Continuous Delivery onto the agentic software factory and the
+  principles and critical practices that drive good outcomes. We'll also co
+ ver what I'm learning introducing this inside an enterprise and why softwa
+ re delivery is still a people problem. \n\nIf your plan is "add agents\, g
+ o faster\," come find out why that produces garbage faster\, and what to f
+ ix first.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1333403@sessionize-dcbso6w5
+DTSTAMP:20261104T143500Z
+DTSTART;TZID=America/New_York:20261104T143500
+DTEND;TZID=America/New_York:20261104T150500
+SUMMARY:The "Evolution of the Intent"
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Akhil Sharma\, Sudipta Mohapatra\n\nConference Sessio
+ n · Context Engineering\n\nLevel: Intermediate\n\nTraditional conversatio
+ nal assistants relied on a strictly finite list of hardcoded "intents" lik
+ e GetWeather or BookFlight. In 2026\, modern LLM-based assistants utilize 
+ State-Space Planning to navigate ambiguous\, complex user objectives. This
+  session explores how replacing rigid intent schemas with flexible "Goal D
+ efinitions" empowers agents to dynamically pivot when a user says\, "Actua
+ lly\, let's do that on Friday instead." Learn how to construct robust\, no
+ n-linear conversational workflows that handle real-time context changes an
+ d mid-task adjustments without breaking.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1323542@sessionize-dcbso6w5
+DTSTAMP:20261104T151500Z
+DTSTART;TZID=America/New_York:20261104T151500
+DTEND;TZID=America/New_York:20261104T154500
+SUMMARY:BYOB - build your own benchmark to evaluate and post-train coding a
+ gents for your team
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Joe Tyler\n\nConference Session · Continuous Evaluat
+ ion & Optimization\n\nLevel: Intermediate\n\nA new coding model tops SWE-B
+ ench on Monday. Should you roll it out to your team on Tuesday? A new tool
+  or MCP server is released. Should you use it straight away? Public benchm
+ arks can’t answer these questions\, because none of them were built for 
+ your code.\n\nWithout knowing how the models were trained\, it’s difficu
+ lt to know whether labs have “benchmaxxed” on popular open benchmarks 
+ like SWE-Bench or Terminal-bench. Even more recent benchmarks like DeepSWE
+  which is written by hand to avoid contamination\, or FrontierCode which i
+ ncludes a measure of production code quality\, are not built for the repos
+ itories or workflows you’ll be using AI coding tools for in your day-to-
+ day.\nIn short: these benchmarks are all relevant\, but none of them have 
+ been tailored for your use cases\, and therefore none can be trusted to gi
+ ve a realistic prediction of how a coding model or agent will perform in y
+ our domain.\n\nAt Sonar\, as the leader in independent verification of AI-
+ generated and developer-written code\, our research team has invested sign
+ ificant time and resources into understanding the qualities and defects of
+  code generated by AI coding tools and models. This is done to answer ques
+ tions the community keeps asking: “Which coding model writes code that i
+ s easiest to maintain?” or “Where should I focus my code review when u
+ sing this model?”. We use these tools ourselves\, so we built our own cu
+ stom benchmark\, which allows us to independently verify the performance o
+ f each new model\, agent\, tool or configuration in workflows that reflect
+  our developers’ AI coding tool usage. We do this to compare these optio
+ ns and recommend tooling\, but also as an evaluation tool for our custom m
+ odels to hill climb on through post-training.\n\nIn this talk\, Joe Tyler\
+ , Lead AI Researcher at Sonar\, will look at the important aspects when de
+ signing evaluations to be indicative of production quality code\, before w
+ alking through how we built a custom benchmark\, and what we learnt when c
+ omparing leading open and closed source coding agents.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:5275a535-dfe1-493f-aeee-c1bee5fdc7c6@sessionize-dcbso6w5
+DTSTAMP:20261104T154500Z
+DTSTART;TZID=America/New_York:20261104T154500
+DTEND;TZID=America/New_York:20261104T161500
+SUMMARY:Coffee break
+LOCATION:All rooms\, Industry City Building 5\, Brooklyn
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1341006@sessionize-dcbso6w5
+DTSTAMP:20261104T161500Z
+DTSTART;TZID=America/New_York:20261104T161500
+DTEND;TZID=America/New_York:20261104T164500
+SUMMARY:Context != Context: One Window\, Different Lifecycles
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Birgitta Boeckeler\n\nConference Session · Context &
+  Skills Engineering\n\nLevel: Beginner\n\nWorkflow instructions\, coding c
+ onventions\, tickets\, wiki pages\, and observability data all end up in t
+ he same context window\, and we call all of it "context." To the model\, i
+ t's all tokens shaping the next prediction. For the people who write\, mai
+ ntain\, and rely on context\, these tokens differ a lot in where they come
+  from\, how much authority they carry\, and how they can go wrong. Some ar
+ e deliberately authored and quality assured. Others emerge as a byproduct 
+ of work and are dynamically retrieved and reconciled from organizational s
+ ystems.\n\nThis talk discusses how these differences change the ways that 
+ each kind is created\, checked\, and delivered to the agent\, and that tre
+ ating them alike can lead to using unsuitable tools and processes. You wil
+ l leave with a clearer idea of the types of context you have available for
+  your coding agents\, and how to best maintain them.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1347200@sessionize-dcbso6w5
+DTSTAMP:20261104T170000Z
+DTSTART;TZID=America/New_York:20261104T170000
+DTEND;TZID=America/New_York:20261104T173000
+SUMMARY:A Dream Factory for an Instrument Made of Light
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Geert Bevin\n\nKeynote · Context & Skills Engineerin
+ g\n\nLevel: Intermediate\n\nGlinster is a musical instrument for Apple Vis
+ ion Pro\, iPhone and iPad that you play with your bare hands. It began as 
+ a prototype I never had time to finish\, and it launches on November 3\, b
+ uilt in two months by one person and Claude Code running in auto mode.\n \
+ nI ran it as an experiment. I read very little of the code\, on purpose\, 
+ to find out whether the processes and methods we built for programming wou
+ ld hold up without it. An instrument is an unforgiving place to try that: 
+ it has to look\, feel and sound right at the same moment\, and every mista
+ ke shows up in front of you as a glitch\, a missed note or a gesture that 
+ feels wrong\, whether or not the tests pass.\n \nThis is a look inside tha
+ t factory. How do you talk to it when what you want is a feeling? What goe
+ s wrong when nobody is reading the code? And what is left for you once the
+  factory takes the treadmill? Expect real stories from the transcripts\, a
+ n honest answer on whether the experiment held\, and a live performance to
+  close.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1333143@sessionize-dcbso6w5
+DTSTAMP:20261104T100500Z
+DTSTART;TZID=America/New_York:20261104T100500
+DTEND;TZID=America/New_York:20261104T103500
+SUMMARY:We Stopped Reading Diffs and Started Verifying Intent
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ankit Jain\n\nConference Session · Organizational en
+ ablement\n\nLevel: Intermediate\n\nOur team merges 4x more pull requests t
+ han we did a year ago. Almost all of that code is AI-generated\, human ass
+ isted. We tried scaling code review to match — more reviewers\, AI revie
+ w tools\, stricter checklists — and none of it worked. What worked was s
+ topping the fight over diffs entirely and building a verification layer ar
+ ound *intent*.\n\nThis is the story of how one engineering team replaced t
+ he PR review bottleneck with an intent-driven verification workflow: captu
+ ring what a change *should* do before a single line is generated\, encodin
+ g team standards as reusable invariants\, and letting deterministic checks
+  — not tired reviewers — produce the evidence that a change is safe to
+  ship.\n\nI'll walk through the specific practices that made the differenc
+ e — especially how we turned years of recurring review comments into mac
+ hine-enforceable invariants — and share the results\, the failures\, and
+  what we'd do differently.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1314200@sessionize-dcbso6w5
+DTSTAMP:20261104T110500Z
+DTSTART;TZID=America/New_York:20261104T110500
+DTEND;TZID=America/New_York:20261104T113500
+SUMMARY:Your agent isn't stupid\, it's blind.
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Ran Aroussi\n\nConference Session · Context & Skills
+  Engineering\n\nLevel: Expert\n\nDistill\, don't store: what we learned bu
+ ilding memory for company-scale agents\n\n\nMost agent memory is a pile of
+  raw text with a similarity search on top. It works in a demo and falls ap
+ art the moment two sources disagree\, a decision gets reversed\, or one pe
+ rson isn't allowed to see what another person said.\n\nWe built the memory
+  layer differently\, and I'll go straight past memory 101 into the design 
+ decisions that actually moved the needle.\n\nNo raw storage. The retrieval
+  unit is a distilled claim with provenance\, not a chunk. Humans do not re
+ member every word of conversations\, but rather remember what established 
+ – so we built the system that way\, and I'll show what that does to accu
+ racy and to context budget.\n\nBelief has a timeline. What did the organiz
+ ation believe last quarter\, what superseded it\, and when. Most systems j
+ ust accumulate contradictions and let the retriever pick a winner at rando
+ m. Detecting the contradiction is a feature\, not an error.\n\nPermission 
+ survives distillation\, which is the hard part. Distillation destroys the 
+ source boundary that access control lives on. A claim assembled from four 
+ systems with four different ACLs has to answer differently for different p
+ eople. This is the piece I've seen almost nobody address.\n\nAgents write 
+ to it too. They're a producer\, not just a consumer – and letting an age
+ nt write into shared knowledge poisons it fast unless the schema is human-
+ authored and the instances are machine-populated.\n\nI'll show the archite
+ cture\, the benchmark methodology\, our scores on LoCoMo\, LongMemEval\, a
+ nd BEAM (1M/10M)\, and the design decisions I'd reverse. White paper publi
+ shed alongside the talk.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1346202@sessionize-dcbso6w5
+DTSTAMP:20261104T114500Z
+DTSTART;TZID=America/New_York:20261104T114500
+DTEND;TZID=America/New_York:20261104T121500
+SUMMARY:We Gave AI Memory. What About Awareness?
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Pari Patel\n\nConference Session · Context Engineeri
+ ng\n\nLevel: Beginner\n\nA coding agent may remember the entire conversati
+ on while still giving its user an explanation they cannot follow or reques
+ ting a decision without enough context. Remembering what happened is only 
+ part of supporting the person doing the work.\n\nPari Patel\, founder of b
+ rain-sensing wearable company Zone\, explores how developer tools could ac
+ count for the human receiving their output. Here\, awareness means sensiti
+ vity to the user’s task and interaction needs. Through a proposed coding
+ -assistant workflow\, she will examine explicit preferences\, task context
+ \, and user feedback as inputs for adjusting explanation depth\, pacing\, 
+ and handoffs.\n\nThe session also considers what neural sensing might even
+ tually contribute\, with a clear distinction between current capabilities 
+ and proposed applications. Attendees will leave with practical ways to des
+ ign more responsive interactions while giving users control over adaptatio
+ n.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1353543@sessionize-dcbso6w5
+DTSTAMP:20261104T122500Z
+DTSTART;TZID=America/New_York:20261104T122500
+DTEND;TZID=America/New_York:20261104T125500
+SUMMARY:One Harness API to Rule Them All
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: George Fahmy\n\nConference Session · Agent Orchestra
+ tion\n\nLevel: Intermediate\n\nMost teams have stopped building agents fro
+ m scratch. They build on Claude Code or Codex instead\, and the interestin
+ g work has moved up one level: tools that run many agents\, review bots\, 
+ long running background tasks\, factories that turn issues into PRs.\n\nTo
+  build any of that\, you need to program the harness. Start it\, stream wh
+ at it does\, steer it\, approve its tool calls\, resume or fork a session\
+ , run it in a sandbox. Each lab ships an SDK for its own harness only. So 
+ every tool either commits to one lab or writes its own glue for each harne
+ ss.\n\nI think that's a missing layer\, and I've been trying to build it a
+ s an open-source Harness SDK. In this talk I'll share where it stands\, th
+ e earlier attempts that didn't work\, how harnesses differ in ways that ma
+ ke them hard to abstract\, and the problems we're still working through.\n
+ \nI'll end with a few demos of tools I built with Harness SDK.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1338686@sessionize-dcbso6w5
+DTSTAMP:20261104T135500Z
+DTSTART;TZID=America/New_York:20261104T135500
+DTEND;TZID=America/New_York:20261104T142500
+SUMMARY:Memory Without Deterministic Coordinates Is Just Hearsay
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Veljko Kovac\n\nConference Session · Context Enginee
+ ring\n\nLevel: Intermediate\n\nCoding agents now work on the same reposito
+ ries across engineers and across weeks\, and every session ends with a fin
+ ding. Those findings are saved as sentences in private memory files\, with
+  nothing that says which function they concern or which version the agent 
+ was looking at. Two agents can investigate the same function a month apart
+ \, and no tool can tell their notes are related. This talk shows why the o
+ bvious fixes fail for the same reason\, and why the one that works needs a
+  deterministic code graph: stamping every finding\, as it is written\, wit
+ h the identity of the function and the version the agent was looking at\, 
+ computed the same way on every machine. Using a deterministic code graph a
+ s the coordinate system and a memory layer that stores findings against it
+ \, findings become shareable and comparable across agents and repositories
+ \, and summaries over them become counts rather than guesses. 
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1362487@sessionize-dcbso6w5
+DTSTAMP:20261104T143500Z
+DTSTART;TZID=America/New_York:20261104T143500
+DTEND;TZID=America/New_York:20261104T150500
+SUMMARY:Code Readiness for Agentic Development
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Tracy Lee\, Coston Perkins\n\nConference Session · S
+ oftware Factories & Dark Factories\n\nLevel: Intermediate\n\nCoding agents
+  succeed when the codebase supports autonomous work. This talk explains ho
+ w reproducible environments\, enforceable standards\, deterministic checks
+ \, evidence-based review\, protected merging\, and production monitoring p
+ repare code for agents from issue to release. Each step leaves the enginee
+ r’s hands only when a script or independent agent can validate it. In on
+ e month\, this approach helped a team merge 334 of 373 agent pull requests
+  on the first try\, with only four requiring human-written code.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1346089@sessionize-dcbso6w5
+DTSTAMP:20261104T151500Z
+DTSTART;TZID=America/New_York:20261104T151500
+DTEND;TZID=America/New_York:20261104T154500
+SUMMARY:Stop Writing Skills. Start Training Them: Self-Improving Skills for
+  Coding Agents
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Shrey Shah\n\nConference Session · Context Engineeri
+ ng\n\nLevel: Intermediate\n\nWe write skills for our coding agents: how to
+  migrate code\, how to write tests\, how to review PRs in our team's style
+ . Then we forget about them. Six months later the skill is stale and the a
+ gent keeps making the same mistakes. The usual fix is to add a line by han
+ d and hope\, with no check that it helped\, or that it didn't quietly brea
+ k another task.\n\nThis talk treats a skill like a model checkpoint and tr
+ ains it. The agent runs a batch of tasks. A second model reads the failure
+ s and proposes a small\, bounded edit. The edit is scored on held-out task
+ s the editor never saw\, and git decides: better\, keep the commit\; not b
+ etter\, git reset. Rejected edits are logged and fed back\, so the editor 
+ stops repeating them. The loop runs overnight\, survives crashes\, and use
+ s the agent CLI you already have.\n\nI'll walk through two real runs from 
+ my open-source trainer. One scores SQL with a deterministic script. The ot
+ her uses a pinned\, structured LLM judge for a skill with no single right 
+ answer: a skill that reviews other skills\, which went from 0.39 to 0.61 o
+ n a test set nobody looked at. I'll show what failed along the way: broad 
+ rules that fixed one task and regressed others\, and an average-based gate
+  that threw away real gains until I switched to a paired\, same-seed gate.
+  And the two tests every trainer should pass: recovering a deleted rule\, 
+ and accepting nothing on pure noise.\n\nWhat you ship is still one SKILL.m
+ d file. No runtime cost. The agent just follows better instructions.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1325473@sessionize-dcbso6w5
+DTSTAMP:20261104T161500Z
+DTSTART;TZID=America/New_York:20261104T161500
+DTEND;TZID=America/New_York:20261104T164500
+SUMMARY:Automating Design Quality in the Dark Factory
+LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Hamza Oza\n\nConference Session · Context & Skills E
+ ngineering\n\nAs coding agents produce more implementation work\, design q
+ uality can become a late-stage review problem. A system may generate funct
+ ional software quickly while still drifting from interaction patterns\, ac
+ cessibility standards\, content guidance\, or the product’s visual langu
+ age.\n\nThis session explores how design teams can move quality checks ear
+ lier by encoding parts of their practice into the software factory itself.
+  We will examine which design decisions can become reusable context\, rule
+ s\, examples\, and automated checks\, and which still require human judgme
+ nt. The talk will also cover the organizational shift for designers: from 
+ reviewing every generated screen to shaping the systems that influence man
+ y agent decisions before code is written.\n\nAttendees will leave with a p
+ ractical framework for deciding what to automate\, how to keep encoded gui
+ dance current\, and how to use review findings to improve the factory rath
+ er than repeatedly fixing the same class of issue.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1319045@sessionize-dcbso6w5
+DTSTAMP:20261104T100500Z
+DTSTART;TZID=America/New_York:20261104T100500
+DTEND;TZID=America/New_York:20261104T103500
+SUMMARY:Graph Engineering in Reverse
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Benjamin Gruenbaum\n\nTools-in-Action · Continuous E
+ valuation & Optimization\n\nLevel: Intermediate\n\nGraph Engineering invol
+ ves creating knowledge and task graphs. Creating a good knowledge graph in
+ volves multiple interesting steps like entity extraction\, data parsing\, 
+ noise elimination and graph algorithms. It turns out that if we start with
+  a really good knowledge graph and do everything a company brain does in r
+ everse we get a really good synthetic company with clones (twins) of all t
+ he common connectors we need. The missing piece was being able to tap into
+  Eon's exabyte scale backup for metadata.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1312658@sessionize-dcbso6w5
+DTSTAMP:20261104T110500Z
+DTSTART;TZID=America/New_York:20261104T110500
+DTEND;TZID=America/New_York:20261104T113500
+SUMMARY:Stop Babysitting Your Agents
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Jack Wotherspoon\n\nTools-in-Action · Real-World Pla
+ ybooks\n\nLevel: Intermediate\n\nFor a while\, using agents meant managing
+  them. You stood them up\, watched them closely\, and kept them going. You
+ r role slowly became managing agents and watching a screen.\n\nThis talk i
+ s about the switch: stop managing agents yourself\, and start using Manage
+ d Agents to get the job done.\n\nI’ll show how you can spin up Gemini Ma
+ naged Agents to automate daily tasks\, but also how to build them into you
+ r product and applications. \n\nWhat changes when the agent is a feature o
+ f the product instead of something you have to run on the side? You no lon
+ ger are a babysitter and can get back to being in control.\n\nYou’ll lea
+ ve with a simpler picture of that move\, from managing agents to using the
+ m within your product.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1325124@sessionize-dcbso6w5
+DTSTAMP:20261104T114500Z
+DTSTART;TZID=America/New_York:20261104T114500
+DTEND;TZID=America/New_York:20261104T121500
+SUMMARY:AI Agents Are Your New Users
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Patrick Chanezon\, Jay Gordon\n\nTools-in-Action · C
+ ontinuous Evaluation & Optimization\n\nLevel: Intermediate\n\nAI coding ag
+ ents are becoming users of your APIs\, documentation\, tools\, and service
+ s\, and they don’t behave like human developers. Experiences that seem i
+ ntuitive to people can send an agent down the wrong path\, but traditional
+  developer-experience testing won’t reveal why.\nAgent behavior can be e
+ valuated at scale: you can run the same developer scenario in a sandbox an
+ d inspect every action\, tool call\, error\, and outcome. This gives teams
+  a way to test how changes to their guidance affect an agent’s ability t
+ o complete real tasks.\nIn this talk\, we’ll introduce Project SCOPE\, a
+ n open-source system for evaluating developer scenarios across combination
+ s of models\, coding-agent harnesses\, and extensions such as skills\, MCP
+  servers\, and instruction files. Drawing on twelve months of experiments\
+ , we’ll share how SCOPE helped the Azure Cosmos DB team improve develope
+ r experience by identifying gaps in agent skills and documentation\, refin
+ ing that guidance\, and evaluating the results.\nYou’ll leave with a pra
+ ctical approach for measuring agent experience\, diagnosing failures\, and
+  improving the skills and documentation that developers and their coding a
+ gents depend on.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1333986@sessionize-dcbso6w5
+DTSTAMP:20261104T122500Z
+DTSTART;TZID=America/New_York:20261104T122500
+DTEND;TZID=America/New_York:20261104T125500
+SUMMARY:Operating Coding Agents at Scale
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Nandini Singhal\n\nTools-in-Action · Continuous Eval
+ uation & Optimization\n\nLevel: Beginner\n\nRolling out coding agents acro
+ ss an engineering organization requires evidence about how they are used\,
+  whether they improve engineering work\, and how each change affects quali
+ ty\, latency\, and cost.\n\nAt Datadog\, we combine gateway telemetry\, no
+ rmalized agent-session traces\, task evaluations\, and software-delivery o
+ utcomes. Gateway data captures model usage\, errors\, latency\, and cost. 
+ Session traces show context and tool use\, file changes\, tests\, and retr
+ ies. Controlled evaluations compare models\, harnesses\, and configuration
+ s on the same tasks. Staged rollouts test those changes with engineers and
+  monitor for regressions before broader availability.\n\nTogether\, these 
+ signals guide rollout decisions\, platform defaults\, and cost controls wi
+ thout treating token volume\, session count\, or tool calls as measures of
+  productivity.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1337975@sessionize-dcbso6w5
+DTSTAMP:20261104T135500Z
+DTSTART;TZID=America/New_York:20261104T135500
+DTEND;TZID=America/New_York:20261104T142500
+SUMMARY:More Team Automation\, Less Agent Autonomy
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Katharina Dzialets\n\nTools-in-Action · Organization
+ al enablement\n\nLevel: Intermediate\n\nAt JetBrains\, we used preconfigur
+ ed environments to delegate feature-sized work on the IntelliJ monorepo. W
+ hat began as a setup for a few AI champions was soon adopted by entire tea
+ ms\, exposing how difficult it was to share and scale.\n\nEach task starte
+ d from a hand-written prompt that rarely carried all the necessary context
+ . A generated change could pass every formal check and still be conceptual
+ ly different from what the team needed\, while increasingly detailed promp
+ ts only made the agent’s behavior harder to predict. In practice\, teams
+  got more value from handing off smaller\, repetitive steps. Instead of ma
+ king each agent run larger and more autonomous\, we needed to make the wor
+ k smaller\, more predictable\, and reusable.\n\nThat led us to build a pla
+ tform where teams compose larger workflows from shared automations with pr
+ edefined context\, permissions\, tools\, and network access. We reused the
+  preconfigured monorepo environments and secure proxy layer from the earli
+ er setup. Today\, more than 100 teams use the platform\, with 935 automati
+ ons across the SDLC.\n\nIn this talk\, I’ll explain why delegating entir
+ e features did not work well for teams\, how smaller shared automations ma
+ de delegation more predictable\, and what 935 automations reveal about the
+  work JetBrains teams choose to delegate to coding agents.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1335485@sessionize-dcbso6w5
+DTSTAMP:20261104T143500Z
+DTSTART;TZID=America/New_York:20261104T143500
+DTEND;TZID=America/New_York:20261104T150500
+SUMMARY:The Software Factory of Factories
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Baruch Sadogursky\n\nTools-in-Action · Standardizati
+ on & Reuse at Scale\n\nLevel: Intermediate\n\nTessl built its own software
+  factory. For a company working on how AI builds software\, that's a reaso
+ nable investment. You're probably not Tessl\, though. How much of the mach
+ inery around your agents should you be building and maintaining yourself?\
+ n\nIn this session\, Baruch will argue that platform engineering should gi
+ ve teams a way to assemble factories for their own work\, drawing on organ
+ izational knowledge they don't have to collect again for every agent. We'l
+ l look at how a shared context lake feeds governed workflows: a deployment
+  workflow\, for example\, can use service ownership to route approval to t
+ he responsible team.\n\nBut teams will also want agents to write and chang
+ e those workflows. That puts factory construction itself under the platfor
+ m's governance\, including permission to change the steps where humans int
+ ervene. We'll examine where teams need that freedom and which security and
+  permission decisions belong outside the factory they're building.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1319847@sessionize-dcbso6w5
+DTSTAMP:20261104T151500Z
+DTSTART;TZID=America/New_York:20261104T151500
+DTEND;TZID=America/New_York:20261104T154500
+SUMMARY:Software Factories for the Software of One
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Matthias Luebken\n\nTools-in-Action · Agent Governan
+ ce\, Security & Trust\n\nLevel: Intermediate\n\nToday’s software factori
+ es are designed for distribution: a team of humans and agents builds an ap
+ plication\, then many people use it. AI changes that economic model. When 
+ an employee can create a useful application for themselves\, we can no lon
+ ger afford to treat every application as a bespoke artifact requiring cent
+ ralized design\, approval\, and long-term maintenance. The next software f
+ actory should be able to produce and operate a long tail of small\, task-s
+ pecific applications: software for one person\, one workflow\, or one deci
+ sion. This does not mean abandoning engineering standards or enterprise go
+ vernance. It means building them into the factory itself: identity\, share
+ d data\, guardrails\, secure capabilities\, and a sandbox.\n\nIn this talk
+ \, we explore the architecture behind software of one: lightweight isolate
+ d compute\, durable state\, capability-based access to shared systems\, an
+ d clear paths for sharing\, reuse\, promotion\, and retirement. Including 
+ throwing code away and rebuilding from scratch. The goal is not to replace
+  shared applications. It is to evolve how we build software so that everyo
+ ne can safely become a builder.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1323260@sessionize-dcbso6w5
+DTSTAMP:20261104T161500Z
+DTSTART;TZID=America/New_York:20261104T161500
+DTEND;TZID=America/New_York:20261104T164500
+SUMMARY:If AI can build anything why does every app have a f*&*ing sidebar?
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Sawyer Hood\n\nTools-in-Action · Real-World Playbook
+ s\n\nLevel: Intermediate\n\nIf Claude Code and Codex can build an interfac
+ e in seconds\, why do their own interfaces look like Microsoft Outlook 200
+ 9?\n\nIn this talk\, I’ll cover the brief history of coding agent interf
+ aces\, why they look the way they do\, and what’s stopping us from build
+ ing truly malleable software: applications whose interfaces can adapt\, re
+ configure\, and even build themselves around what the user is trying to do
+ .
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+END:VCALENDAR

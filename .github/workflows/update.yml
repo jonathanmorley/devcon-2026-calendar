@@ -1,0 +1,37 @@
+name: Update calendar
+
+on:
+  schedule:
+    - cron: "17 * * * *" # hourly
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [build.mjs]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.mjs
+      - name: Commit if changed
+        run: |
+          git add devcon-2026.ics
+          if git diff --cached --quiet; then
+            echo "No schedule changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update schedule from Sessionize"
+          git push
