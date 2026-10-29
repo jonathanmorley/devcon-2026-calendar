@@ -177,6 +177,38 @@ DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
+UID:1374981@sessionize-dcbso6w5
+DTSTAMP:20261102T111000Z
+DTSTART;TZID=America/New_York:20261102T111000
+DTEND;TZID=America/New_York:20261102T124000
+SUMMARY:Optimizing Agentic Workspaces: Skills\, MCP\, Custom Agents\, and S
+ hared Context
+LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Brian Turcotte\n\nWorkshop · The Agent Enablement Pl
+ atform\n\nLevel: Intermediate\n\nA productive coding agent needs more than
+  a good prompt. It needs the right context\, tools\, instructions\, and bo
+ undaries. This workshop explores how to set up your IDE or coding agent be
+ fore you start writing code\, so it can work more consistently across task
+ s\, projects\, and teams.\n\nLearn how to organize reusable skills\, conne
+ ct tools and information through Model Context Protocol (MCP) servers\, de
+ fine custom agents for specific responsibilities\, and establish configura
+ tions that keep everyone working from the same expectations. We’ll also 
+ cover practical guardrails: what agents can change\, when they should ask 
+ for approval\, and how to check their work.\n\nThe focus is building a wor
+ kspace you can maintain and expand without accumulating conflicting instru
+ ctions\, unnecessary tools\, or agents with unclear roles.\n\nWhat you’l
+ l come away with\n\n- A repeatable setup checklist for preparing an agenti
+ c workspace before development begins.\n\n- A framework for choosing the r
+ ight approach: when to use a skill\, an MCP server\, a custom agent\, or a
+  simple instruction.\n\n- A structure for reusable skills and configuratio
+ ns that can grow across projects and teams.\n\n- Clear agent responsibilit
+ ies that make delegation and handoffs easier to manage.\n\n- Practical gua
+ rdrails for tool access\, permissions\, code changes\, testing\, and human
+  review.\n\n- A way to evaluate your setup using representative tasks\, id
+ entify friction\, and improve it over time.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
 UID:1334993@sessionize-dcbso6w5
 DTSTAMP:20261102T134000Z
 DTSTART;TZID=America/New_York:20261102T134000
@@ -264,28 +296,26 @@ DESCRIPTION:Speakers: Guy Podjarny\n\nKeynote · Agent Governance\, Securit
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1348505@sessionize-dcbso6w5
+UID:1341006@sessionize-dcbso6w5
 DTSTAMP:20261103T100500Z
 DTSTART;TZID=America/New_York:20261103T100500
 DTEND;TZID=America/New_York:20261103T103500
-SUMMARY:Agent Platforms for Inventing Agents
+SUMMARY:Context != Context: One Window\, Different Lifecycles
 LOCATION:52A\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Ryan Lopopolo\n\nConference Session · Software Facto
- ries & Dark Factories\n\nLevel: Intermediate\n\nLivestreamed for virtual a
- ttendees\n\nAn agent is a parameterized program over a set of capabilities
- : a model\, context\, a computer\, a filesystem\, tools\, runtimes\, netwo
- rk access\, identity\, guardrails\, and the instructions that bind them to
- gether.\n\nWe are beginning to recognize those primitives. What we do not 
- know is the best implementation of almost any of them.\n\nThat makes the a
- rchitecture of an agent platform unusually important. If the platform hard
- -codes today’s assumptions\, every new idea becomes a feature request. I
- nstead\, it should behave more like a microkernel: expose composable primi
- tives\, make their implementations swappable\, and let builders invent the
-  agent they need.\n\nThis talk develops that model from first principles a
- nd shows how harness engineering\, tool discovery\, verification\, governa
- nce\, judges\, and autonomous software factories emerge naturally from it.
- \n\nWe are early enough that we should optimize for discovering what works
- \, not standardizing what happened to work first.
+DESCRIPTION:Speakers: Birgitta Boeckeler\n\nConference Session · Context &
+  Skills Engineering\n\nLevel: Beginner\n\nWorkflow instructions\, coding c
+ onventions\, tickets\, wiki pages\, and observability data all end up in t
+ he same context window\, and we call all of it "context." To the model\, i
+ t's all tokens shaping the next prediction. For the people who write\, mai
+ ntain\, and rely on context\, these tokens differ a lot in where they come
+  from\, how much authority they carry\, and how they can go wrong. Some ar
+ e deliberately authored and quality assured. Others emerge as a byproduct 
+ of work and are dynamically retrieved and reconciled from organizational s
+ ystems.\n\nThis talk discusses how these differences change the ways that 
+ each kind is created\, checked\, and delivered to the agent\, and that tre
+ ating them alike can lead to using unsuitable tools and processes. You wil
+ l leave with a clearer idea of the types of context you have available for
+  your coding agents\, and how to best maintain them.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -1215,29 +1245,6 @@ DTSTART;TZID=America/New_York:20261104T154500
 DTEND;TZID=America/New_York:20261104T161500
 SUMMARY:Coffee break
 LOCATION:All rooms\, Industry City Building 5\, Brooklyn
-URL:https://tessl.io/devcon#agenda
-END:VEVENT
-BEGIN:VEVENT
-UID:1341006@sessionize-dcbso6w5
-DTSTAMP:20261104T161500Z
-DTSTART;TZID=America/New_York:20261104T161500
-DTEND;TZID=America/New_York:20261104T164500
-SUMMARY:Context != Context: One Window\, Different Lifecycles
-LOCATION:52A\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Birgitta Boeckeler\n\nConference Session · Context &
-  Skills Engineering\n\nLevel: Beginner\n\nWorkflow instructions\, coding c
- onventions\, tickets\, wiki pages\, and observability data all end up in t
- he same context window\, and we call all of it "context." To the model\, i
- t's all tokens shaping the next prediction. For the people who write\, mai
- ntain\, and rely on context\, these tokens differ a lot in where they come
-  from\, how much authority they carry\, and how they can go wrong. Some ar
- e deliberately authored and quality assured. Others emerge as a byproduct 
- of work and are dynamically retrieved and reconciled from organizational s
- ystems.\n\nThis talk discusses how these differences change the ways that 
- each kind is created\, checked\, and delivered to the agent\, and that tre
- ating them alike can lead to using unsuitable tools and processes. You wil
- l leave with a clearer idea of the types of context you have available for
-  your coding agents\, and how to best maintain them.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
