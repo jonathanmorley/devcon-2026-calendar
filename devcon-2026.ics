@@ -173,7 +173,12 @@ DTSTART;TZID=America/New_York:20261102T154000
 DTEND;TZID=America/New_York:20261102T171000
 SUMMARY:Context\, subagents\, MCP and memory: building agents that last
 LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop
+DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop\n\nA hands-on se
+ ssion on building agents that hold up over long runs. We'll cover how to m
+ anage context\, when to split work into subagents\, how to connect tools w
+ ith MCP and how to give agents memory. You'll build one small agent step b
+ y step with the Claude Agent SDK\, and leave with patterns you can use on 
+ your own agents straight away.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
