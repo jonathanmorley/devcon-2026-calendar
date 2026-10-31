@@ -532,6 +532,21 @@ DESCRIPTION:Speakers: Steve Yegge\n\nKeynote · Standardization & Reuse at
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
+UID:1376870@sessionize-dcbso6w5
+DTSTAMP:20261103T173000Z
+DTSTART;TZID=America/New_York:20261103T173000
+DTEND;TZID=America/New_York:20261103T180000
+SUMMARY:Closing Remarks & Key Takeaways
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Conference Session\n\nLivestreamed for virtual attendees\n\nJoi
+ n us as we wrap up the first full conference day of AI DevCon NYC! We'll r
+ eflect on the day's highlights\, share a few key takeaways and cover impor
+ tant announcements before we close out the livestream.\n\nAnd for those jo
+ ining us in person\, the day isn't over yet! Stick around for the AI DevCo
+ n Conference Party!
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
 UID:1369553@sessionize-dcbso6w5
 DTSTAMP:20261103T180000Z
 DTSTART;TZID=America/New_York:20261103T180000
@@ -1253,22 +1268,26 @@ LOCATION:All rooms\, Industry City Building 5\, Brooklyn
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1376071@sessionize-dcbso6w5
+UID:1353543@sessionize-dcbso6w5
 DTSTAMP:20261104T161500Z
 DTSTART;TZID=America/New_York:20261104T161500
 DTEND;TZID=America/New_York:20261104T164500
-SUMMARY:Data Isn't the New Oil — It's Refined Data
+SUMMARY:One Harness API to Rule Them All
 LOCATION:52A\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Pratik Patel\n\nConference Session · Software Factor
- ies & Dark Factories\n\nLevel: Beginner\n\n“Data is the new oil\,” but
-  crude oil is worthless until it’s refined. AI now sits inside the softw
- are delivery pipeline: coding assistants\, internal chatbots\, and agents 
- that write\, review\, and ship code. They’re only as good as the data be
- hind them\, and most company data is crude: duplicated\, stale\, and noisy
- . This talk explains what refining data really means and how it raises the
-  quality of the software AI helps deliver. You’ll learn to treat data li
- ke code (versioned\, tested\, and gated in CI) so that better data turns i
- nto better software.
+DESCRIPTION:Speakers: George Fahmy\n\nConference Session · Agent Orchestra
+ tion\n\nLevel: Intermediate\n\nMost teams have stopped building agents fro
+ m scratch. They build on Claude Code or Codex instead\, and the interestin
+ g work has moved up one level: tools that run many agents\, review bots\, 
+ long running background tasks\, factories that turn issues into PRs.\n\nTo
+  build any of that\, you need to program the harness. Start it\, stream wh
+ at it does\, steer it\, approve its tool calls\, resume or fork a session\
+ , run it in a sandbox. Each lab ships an SDK for its own harness only. So 
+ every tool either commits to one lab or writes its own glue for each harne
+ ss.\n\nI think that's a missing layer\, and I've been trying to build it a
+ s an open-source Harness SDK. In this talk I'll share where it stands\, th
+ e earlier attempts that didn't work\, how harnesses differ in ways that ma
+ ke them hard to abstract\, and the problems we're still working through.\n
+ \nI'll end with a few demos of tools I built with Harness SDK.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -1294,6 +1313,21 @@ DESCRIPTION:Speakers: Geert Bevin\n\nKeynote · Context & Skills Engineerin
   factory takes the treadmill? Expect real stories from the transcripts\, a
  n honest answer on whether the experiment held\, and a live performance to
   close.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
+UID:1376871@sessionize-dcbso6w5
+DTSTAMP:20261104T173000Z
+DTSTART;TZID=America/New_York:20261104T173000
+DTEND;TZID=America/New_York:20261104T180000
+SUMMARY:That's a wrap on AI DevCon NYC 2026!
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Conference Session\n\nJoin us for our final session as we look 
+ back on three days of learning\, conversations and community. We'll share 
+ some closing thoughts\, thank our incredible speakers\, sponsors and atten
+ dees\, and announce the winners of our sponsor raffles!\n\nOne last chance
+  to come together before we say goodbye. Thanks for being part of AI DevCo
+ n NYC!
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -1379,26 +1413,22 @@ DESCRIPTION:Speakers: Pari Patel\n\nConference Session · Context Engineeri
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1353543@sessionize-dcbso6w5
+UID:1376071@sessionize-dcbso6w5
 DTSTAMP:20261104T122500Z
 DTSTART;TZID=America/New_York:20261104T122500
 DTEND;TZID=America/New_York:20261104T125500
-SUMMARY:One Harness API to Rule Them All
+SUMMARY:Data Isn't the New Oil — It's Refined Data
 LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: George Fahmy\n\nConference Session · Agent Orchestra
- tion\n\nLevel: Intermediate\n\nMost teams have stopped building agents fro
- m scratch. They build on Claude Code or Codex instead\, and the interestin
- g work has moved up one level: tools that run many agents\, review bots\, 
- long running background tasks\, factories that turn issues into PRs.\n\nTo
-  build any of that\, you need to program the harness. Start it\, stream wh
- at it does\, steer it\, approve its tool calls\, resume or fork a session\
- , run it in a sandbox. Each lab ships an SDK for its own harness only. So 
- every tool either commits to one lab or writes its own glue for each harne
- ss.\n\nI think that's a missing layer\, and I've been trying to build it a
- s an open-source Harness SDK. In this talk I'll share where it stands\, th
- e earlier attempts that didn't work\, how harnesses differ in ways that ma
- ke them hard to abstract\, and the problems we're still working through.\n
- \nI'll end with a few demos of tools I built with Harness SDK.
+DESCRIPTION:Speakers: Pratik Patel\n\nConference Session · Software Factor
+ ies & Dark Factories\n\nLevel: Beginner\n\n“Data is the new oil\,” but
+  crude oil is worthless until it’s refined. AI now sits inside the softw
+ are delivery pipeline: coding assistants\, internal chatbots\, and agents 
+ that write\, review\, and ship code. They’re only as good as the data be
+ hind them\, and most company data is crude: duplicated\, stale\, and noisy
+ . This talk explains what refining data really means and how it raises the
+  quality of the software AI helps deliver. You’ll learn to treat data li
+ ke code (versioned\, tested\, and gated in CI) so that better data turns i
+ nto better software.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
