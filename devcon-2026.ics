@@ -1253,6 +1253,25 @@ LOCATION:All rooms\, Industry City Building 5\, Brooklyn
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
+UID:1376071@sessionize-dcbso6w5
+DTSTAMP:20261104T161500Z
+DTSTART;TZID=America/New_York:20261104T161500
+DTEND;TZID=America/New_York:20261104T164500
+SUMMARY:Data Isn't the New Oil — It's Refined Data
+LOCATION:52A\, Industry City Building 5\, Brooklyn
+DESCRIPTION:Speakers: Pratik Patel\n\nConference Session · Software Factor
+ ies & Dark Factories\n\nLevel: Beginner\n\n“Data is the new oil\,” but
+  crude oil is worthless until it’s refined. AI now sits inside the softw
+ are delivery pipeline: coding assistants\, internal chatbots\, and agents 
+ that write\, review\, and ship code. They’re only as good as the data be
+ hind them\, and most company data is crude: duplicated\, stale\, and noisy
+ . This talk explains what refining data really means and how it raises the
+  quality of the software AI helps deliver. You’ll learn to treat data li
+ ke code (versioned\, tested\, and gated in CI) so that better data turns i
+ nto better software.
+URL:https://tessl.io/devcon#agenda
+END:VEVENT
+BEGIN:VEVENT
 UID:1347200@sessionize-dcbso6w5
 DTSTAMP:20261104T170000Z
 DTSTART;TZID=America/New_York:20261104T170000
