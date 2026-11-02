@@ -70,31 +70,28 @@ LOCATION:All rooms\, Industry City Building 5\, Brooklyn
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1350828@sessionize-dcbso6w5
+UID:1334993@sessionize-dcbso6w5
 DTSTAMP:20261102T134000Z
 DTSTART;TZID=America/New_York:20261102T134000
 DTEND;TZID=America/New_York:20261102T151000
-SUMMARY:AI in Legacy Code: Small Steps\, Deterministic Tools\, Reusable Con
- text
+SUMMARY:Stop Context Drift: Building Software with Deterministic Agents
 LOCATION:52A\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Llewellyn Falco\n\nWorkshop · Real-World Playbooks\n
- \nLevel: Beginner\n\nAI works well on greenfield code and falls apart on t
- he code most of us actually have. In this hands-on mob session\, we take a
-  real legacy codebase and make it safe for AI\, live\, in small steps and 
- fast feedback loops.\n\nTogether we write the handful of CLIs every projec
- t needs: a fast test script\, a coverage script\, and format and lint tool
- s. We wire in Habit Hooks\, which turns linter findings into coaching an a
- gent can act on\, and use it to take on smells like duplication and long m
- ethods. We use deliberately fast\, low-thinking models\, because tiny step
- s and quick verification beat clever prompts.\n\nThen we extract knowledge
-  into documents: product docs\, process docs\, and agent rules. We clear c
- ontext repeatedly and reload only what the agent needs from those docs\, s
- o the context is something we build and keep rather than something we re-e
- xplain every session.\n\n**You will leave able to:**\n- Build the basic CL
- Is a legacy project needs before an agent touches it\n- Wire in hooks that
-  turn deterministic checks into guidance for the agent\n- Extract product 
- and process knowledge into docs and rules the agent can reload after every
-  context clear\n
+DESCRIPTION:Speakers: Tsvetan Tsvetanov\n\nWorkshop · Context & Skills Eng
+ ineering\n\nLevel: Intermediate\n\nAI coding agents are surprisingly good 
+ at writing code. The problem is keeping them aligned with what you actuall
+ y asked for as a project grows.\n\nIn this 90-minute hands-on workshop\, w
+ e'll build an application with nWave and follow an idea all the way to wor
+ king code. We'll see how nWave turns expectations into executable checks\,
+  uses Agda and TLA+ to verify design decisions\, and runs implementation t
+ hrough a deterministic execution system designed to prevent context drift 
+ between intent\, design\, code\, and validation.\n\nRather than prompting 
+ an agent and reviewing what comes back\, we'll work through an expectation
+ -driven development loop where each step produces constraints for the next
+ . Along the way\, we'll examine the generated code\, tests\, and verificat
+ ion artifacts to understand what the system can guarantee — and where hu
+ man judgment still belongs.\n\nYou'll leave with a working application and
+  a concrete model for building agentic development workflows where correct
+ ness doesn't depend on an agent remembering the right context.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -107,25 +104,18 @@ LOCATION:All rooms\, Industry City Building 5\, Brooklyn
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1323029@sessionize-dcbso6w5
+UID:1363200@sessionize-dcbso6w5
 DTSTAMP:20261102T154000Z
 DTSTART;TZID=America/New_York:20261102T154000
 DTEND;TZID=America/New_York:20261102T171000
-SUMMARY:Building Custom Agents with the GitHub Copilot SDK
+SUMMARY:Context\, subagents\, MCP and memory: building agents that last
 LOCATION:52A\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Bruno Borges\, Jay Gordon\n\nWorkshop · Real-World P
- laybooks\n\nLevel: Intermediate\n\nIn this slide-free\, code and agent hea
- vy walkthrough\, we will build an agentic app with the GitHub Copilot SDK.
- \n\nWe will begin by understanding with the Copilot Agent Runtime harness 
- and then progressively build a museum exhibit curator agent. Attendees wil
- l create and manage sessions\, stream events\, expose application-owned da
- ta through a custom tool\, connect an MCP server\, and produce a structure
- d\, evidence-based report.\n\nGitHub Copilot SDKs include Java\, Node.js\,
-  Python\, .NET\, Rust\, and Go support. Although each uses its language co
- nventions and type systems\, they all implement the same concepts.\n\nAtte
- ndees will see with a working application\, a practical understanding of t
- he agent and tool-execution loop\, and reusable patterns for building secu
- re\, testable Copilot-powered apps.
+DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop\n\nA hands-on se
+ ssion on building agents that hold up over long runs. We'll cover how to m
+ anage context\, when to split work into subagents\, how to connect tools w
+ ith MCP and how to give agents memory. You'll build one small agent step b
+ y step with the Claude Agent SDK\, and leave with patterns you can use on 
+ your own agents straight away.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -167,18 +157,25 @@ DESCRIPTION:Speakers: Ian Johnson\n\nWorkshop · Context & Skills Engineeri
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1363200@sessionize-dcbso6w5
+UID:1323029@sessionize-dcbso6w5
 DTSTAMP:20261102T154000Z
 DTSTART;TZID=America/New_York:20261102T154000
 DTEND;TZID=America/New_York:20261102T171000
-SUMMARY:Context\, subagents\, MCP and memory: building agents that last
+SUMMARY:Building Custom Agents with the GitHub Copilot SDK
 LOCATION:The Landing - Ground Floor\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Nicolas Carmont Zaragoza\n\nWorkshop\n\nA hands-on se
- ssion on building agents that hold up over long runs. We'll cover how to m
- anage context\, when to split work into subagents\, how to connect tools w
- ith MCP and how to give agents memory. You'll build one small agent step b
- y step with the Claude Agent SDK\, and leave with patterns you can use on 
- your own agents straight away.
+DESCRIPTION:Speakers: Bruno Borges\, Jay Gordon\n\nWorkshop · Real-World P
+ laybooks\n\nLevel: Intermediate\n\nIn this slide-free\, code and agent hea
+ vy walkthrough\, we will build an agentic app with the GitHub Copilot SDK.
+ \n\nWe will begin by understanding with the Copilot Agent Runtime harness 
+ and then progressively build a museum exhibit curator agent. Attendees wil
+ l create and manage sessions\, stream events\, expose application-owned da
+ ta through a custom tool\, connect an MCP server\, and produce a structure
+ d\, evidence-based report.\n\nGitHub Copilot SDKs include Java\, Node.js\,
+  Python\, .NET\, Rust\, and Go support. Although each uses its language co
+ nventions and type systems\, they all implement the same concepts.\n\nAtte
+ ndees will see with a working application\, a practical understanding of t
+ he agent and tool-execution loop\, and reusable patterns for building secu
+ re\, testable Copilot-powered apps.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -198,28 +195,31 @@ DESCRIPTION:Speakers: Patrick Debois\n\nWorkshop · The Agent Enablement Pl
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1334993@sessionize-dcbso6w5
+UID:1350828@sessionize-dcbso6w5
 DTSTAMP:20261102T134000Z
 DTSTART;TZID=America/New_York:20261102T134000
 DTEND;TZID=America/New_York:20261102T151000
-SUMMARY:Stop Context Drift: Building Software with Deterministic Agents
+SUMMARY:AI in Legacy Code: Small Steps\, Deterministic Tools\, Reusable Con
+ text
 LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Tsvetan Tsvetanov\n\nWorkshop · Context & Skills Eng
- ineering\n\nLevel: Intermediate\n\nAI coding agents are surprisingly good 
- at writing code. The problem is keeping them aligned with what you actuall
- y asked for as a project grows.\n\nIn this 90-minute hands-on workshop\, w
- e'll build an application with nWave and follow an idea all the way to wor
- king code. We'll see how nWave turns expectations into executable checks\,
-  uses Agda and TLA+ to verify design decisions\, and runs implementation t
- hrough a deterministic execution system designed to prevent context drift 
- between intent\, design\, code\, and validation.\n\nRather than prompting 
- an agent and reviewing what comes back\, we'll work through an expectation
- -driven development loop where each step produces constraints for the next
- . Along the way\, we'll examine the generated code\, tests\, and verificat
- ion artifacts to understand what the system can guarantee — and where hu
- man judgment still belongs.\n\nYou'll leave with a working application and
-  a concrete model for building agentic development workflows where correct
- ness doesn't depend on an agent remembering the right context.
+DESCRIPTION:Speakers: Llewellyn Falco\n\nWorkshop · Real-World Playbooks\n
+ \nLevel: Beginner\n\nAI works well on greenfield code and falls apart on t
+ he code most of us actually have. In this hands-on mob session\, we take a
+  real legacy codebase and make it safe for AI\, live\, in small steps and 
+ fast feedback loops.\n\nTogether we write the handful of CLIs every projec
+ t needs: a fast test script\, a coverage script\, and format and lint tool
+ s. We wire in Habit Hooks\, which turns linter findings into coaching an a
+ gent can act on\, and use it to take on smells like duplication and long m
+ ethods. We use deliberately fast\, low-thinking models\, because tiny step
+ s and quick verification beat clever prompts.\n\nThen we extract knowledge
+  into documents: product docs\, process docs\, and agent rules. We clear c
+ ontext repeatedly and reload only what the agent needs from those docs\, s
+ o the context is something we build and keep rather than something we re-e
+ xplain every session.\n\n**You will leave able to:**\n- Build the basic CL
+ Is a legacy project needs before an agent touches it\n- Wire in hooks that
+  turn deterministic checks into guidance for the agent\n- Extract product 
+ and process knowledge into docs and rules the agent can reload after every
+  context clear\n
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
@@ -292,19 +292,20 @@ DTEND;TZID=America/New_York:20261103T103500
 SUMMARY:Context != Context: One Window\, Different Lifecycles
 LOCATION:52A\, Industry City Building 5\, Brooklyn
 DESCRIPTION:Speakers: Birgitta Boeckeler\n\nConference Session · Context &
-  Skills Engineering\n\nLevel: Beginner\n\nWorkflow instructions\, coding c
- onventions\, tickets\, wiki pages\, and observability data all end up in t
- he same context window\, and we call all of it "context." To the model\, i
- t's all tokens shaping the next prediction. For the people who write\, mai
- ntain\, and rely on context\, these tokens differ a lot in where they come
-  from\, how much authority they carry\, and how they can go wrong. Some ar
- e deliberately authored and quality assured. Others emerge as a byproduct 
- of work and are dynamically retrieved and reconciled from organizational s
- ystems.\n\nThis talk discusses how these differences change the ways that 
- each kind is created\, checked\, and delivered to the agent\, and that tre
- ating them alike can lead to using unsuitable tools and processes. You wil
- l leave with a clearer idea of the types of context you have available for
-  your coding agents\, and how to best maintain them.
+  Skills Engineering\n\nLevel: Beginner\n\nLivestreamed for virtual attende
+ es\n\nWorkflow instructions\, coding conventions\, tickets\, wiki pages\, 
+ and observability data all end up in the same context window\, and we call
+  all of it "context." To the model\, it's all tokens shaping the next pred
+ iction. For the people who write\, maintain\, and rely on context\, these 
+ tokens differ a lot in where they come from\, how much authority they carr
+ y\, and how they can go wrong. Some are deliberately authored and quality 
+ assured. Others emerge as a byproduct of work and are dynamically retrieve
+ d and reconciled from organizational systems.\n\nThis talk discusses how t
+ hese differences change the ways that each kind is created\, checked\, and
+  delivered to the agent\, and that treating them alike can lead to using u
+ nsuitable tools and processes. You will leave with a clearer idea of the t
+ ypes of context you have available for your coding agents\, and how to bes
+ t maintain them.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
