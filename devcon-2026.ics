@@ -186,31 +186,15 @@ UID:1374981@sessionize-dcbso6w5
 DTSTAMP:20261102T111000Z
 DTSTART;TZID=America/New_York:20261102T111000
 DTEND;TZID=America/New_York:20261102T124000
-SUMMARY:Optimizing Agentic Workspaces: Skills\, MCP\, Custom Agents\, and S
- hared Context
+SUMMARY:AI-Native Development: Tools\, Careers & Teams
 LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Brian Turcotte\n\nWorkshop · The Agent Enablement Pl
- atform\n\nLevel: Intermediate\n\nA productive coding agent needs more than
-  a good prompt. It needs the right context\, tools\, instructions\, and bo
- undaries. This workshop explores how to set up your IDE or coding agent be
- fore you start writing code\, so it can work more consistently across task
- s\, projects\, and teams.\n\nLearn how to organize reusable skills\, conne
- ct tools and information through Model Context Protocol (MCP) servers\, de
- fine custom agents for specific responsibilities\, and establish configura
- tions that keep everyone working from the same expectations. We’ll also 
- cover practical guardrails: what agents can change\, when they should ask 
- for approval\, and how to check their work.\n\nThe focus is building a wor
- kspace you can maintain and expand without accumulating conflicting instru
- ctions\, unnecessary tools\, or agents with unclear roles.\n\nWhat you’l
- l come away with\n\n- A repeatable setup checklist for preparing an agenti
- c workspace before development begins.\n\n- A framework for choosing the r
- ight approach: when to use a skill\, an MCP server\, a custom agent\, or a
-  simple instruction.\n\n- A structure for reusable skills and configuratio
- ns that can grow across projects and teams.\n\n- Clear agent responsibilit
- ies that make delegation and handoffs easier to manage.\n\n- Practical gua
- rdrails for tool access\, permissions\, code changes\, testing\, and human
-  review.\n\n- A way to evaluate your setup using representative tasks\, id
- entify friction\, and improve it over time.
+DESCRIPTION:Speakers: Patrick Debois\n\nWorkshop · The Agent Enablement Pl
+ atform\n\nLevel: Beginner\n\nJoin a 90-minute open discussion on AI-native
+  development: the technology\, your career\, and working within your team 
+ or organization. Bring your questions\, share experiences\, and compare ap
+ proaches to learning and overcoming workplace blockers. Everyone is welcom
+ e\, at any experience level.\n\nA unique Ask me Anything session with Patr
+ ick Debois
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
