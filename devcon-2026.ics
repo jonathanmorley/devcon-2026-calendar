@@ -1683,26 +1683,4 @@ DESCRIPTION:Speakers: Matthias Luebken\n\nTools-in-Action · Agent Governan
  ne can safely become a builder.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
-BEGIN:VEVENT
-UID:1379315@sessionize-dcbso6w5
-DTSTAMP:20261104T161500Z
-DTSTART;TZID=America/New_York:20261104T161500
-DTEND;TZID=America/New_York:20261104T164500
-SUMMARY:Building a Software Factory Live: Lessons from Tessl
-LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Conference Session · Software Factories & Dark Factories\n\nLe
- vel: Beginner\n\nIn this session\, I’ll build an issue-to-PR software fa
- ctory live\, drawing and referring to our experiences of creating a facotr
- y at Tessl. We’ll assemble it in layers\, giving agents the context they
-  need\, connecting implementation and review loops\, and adding checks tha
- t determine whether a change is ready or needs another pass.\n\nMost of th
- e session will be spent building and running the factory in real time. As 
- we take an issue through to a pull request\, I’ll explain the choices be
- hind the setup and the lessons that shaped them: focused review lenses\, d
- eterministic gates\, feedback that improves future runs\, and limits that 
- stop agents going round in circles.\n\nYou’ll leave with a practical sta
- rting point for your own codebase and a clearer understanding of how devel
- opers guide the work when agents handle more of the implementation.
-URL:https://tessl.io/devcon#agenda
-END:VEVENT
 END:VCALENDAR
