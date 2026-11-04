@@ -1684,20 +1684,25 @@ DESCRIPTION:Speakers: Matthias Luebken\n\nTools-in-Action · Agent Governan
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 BEGIN:VEVENT
-UID:1323260@sessionize-dcbso6w5
+UID:1379315@sessionize-dcbso6w5
 DTSTAMP:20261104T161500Z
 DTSTART;TZID=America/New_York:20261104T161500
 DTEND;TZID=America/New_York:20261104T164500
-SUMMARY:If AI can build anything why does every app have a f*&*ing sidebar?
+SUMMARY:Building a Software Factory Live: Lessons from Tessl
 LOCATION:The Landing - Lower Level\, Industry City Building 5\, Brooklyn
-DESCRIPTION:Speakers: Sawyer Hood\n\nTools-in-Action · Real-World Playbook
- s\n\nLevel: Intermediate\n\nIf Claude Code and Codex can build an interfac
- e in seconds\, why do their own interfaces look like Microsoft Outlook 200
- 9?\n\nIn this talk\, I’ll cover the brief history of coding agent interf
- aces\, why they look the way they do\, and what’s stopping us from build
- ing truly malleable software: applications whose interfaces can adapt\, re
- configure\, and even build themselves around what the user is trying to do
- .
+DESCRIPTION:Conference Session · Software Factories & Dark Factories\n\nLe
+ vel: Beginner\n\nIn this session\, I’ll build an issue-to-PR software fa
+ ctory live\, drawing and referring to our experiences of creating a facotr
+ y at Tessl. We’ll assemble it in layers\, giving agents the context they
+  need\, connecting implementation and review loops\, and adding checks tha
+ t determine whether a change is ready or needs another pass.\n\nMost of th
+ e session will be spent building and running the factory in real time. As 
+ we take an issue through to a pull request\, I’ll explain the choices be
+ hind the setup and the lessons that shaped them: focused review lenses\, d
+ eterministic gates\, feedback that improves future runs\, and limits that 
+ stop agents going round in circles.\n\nYou’ll leave with a practical sta
+ rting point for your own codebase and a clearer understanding of how devel
+ opers guide the work when agents handle more of the implementation.
 URL:https://tessl.io/devcon#agenda
 END:VEVENT
 END:VCALENDAR
